@@ -9,8 +9,8 @@
       "生物分子网络",
       "计算机辅助药物发现"
     ],
-    "totalEntries": 962,
-    "totalFacts": 1832,
+    "totalEntries": 950,
+    "totalFacts": 1814,
     "algorithms": [
       "ooxml_zip_parsing",
       "slide_title_placeholder_detection",
@@ -19,118 +19,6 @@
     ]
   },
   "entries": [
-    {
-      "id": "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0001",
-      "module": "引言及基因组信息学",
-      "title": "生物信息学导论 绪论及基因组学简介",
-      "summary": "张高川 生物 信息学系 生命科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-      "keywords": [
-        "生物",
-        "信息",
-        "息学",
-        "物信",
-        "学导",
-        "导论",
-        "生物信息学导论",
-        "绪论"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-          "explanation": "张高川 生物 信息学系 生命科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-          "distractors": [],
-          "keywords": [
-            "生物",
-            "信息",
-            "息学",
-            "物信"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 1,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0002",
-      "module": "引言及基因组信息学",
-      "title": "总体 授课安排",
-      "summary": "绪论 基因组信息学 1 2 理论课时（张高川）",
-      "keywords": [
-        "信息",
-        "息学",
-        "总体",
-        "授课",
-        "课安",
-        "安排",
-        "授课安排",
-        "生物"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“总体 授课安排”，下列哪项表述与知识库一致？",
-          "answer": "绪论 基因组信息学 1 2 理论课时（张高川）",
-          "explanation": "绪论 基因组信息学 1 2 理论课时（张高川）",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "总体",
-            "授课"
-          ]
-        },
-        {
-          "question": "关于“总体 授课安排”，下列哪项表述与知识库一致？",
-          "answer": "转录组信息学 生物分子网络与通路 12 理论课时（严文颖）",
-          "explanation": "转录组信息学 生物分子网络与通路 12 理论课时（严文颖）",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "总体",
-            "授课"
-          ]
-        },
-        {
-          "question": "关于“总体 授课安排”，下列哪项表述与知识库一致？",
-          "answer": "过程考核 1 蛋白质组信息学 计算机辅助药物发现 12 理论课时（肖飞）",
-          "explanation": "过程考核 1 蛋白质组信息学 计算机辅助药物发现 12 理论课时（肖飞）",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "总体",
-            "授课"
-          ]
-        },
-        {
-          "question": "关于“总体 授课安排”，下列哪项表述与知识库一致？",
-          "answer": "过程 考核 2 过程 考核 3 2",
-          "explanation": "过程 考核 2 过程 考核 3 2",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "总体",
-            "授课"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        2
-      ],
-      "visualSignals": {
-        "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
     {
       "id": "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0003",
       "module": "引言及基因组信息学",
@@ -4724,44 +4612,6 @@
       }
     },
     {
-      "id": "genomics-core-生物信息学导论-2-基因组信息学1-张高川-s0001",
-      "module": "引言及基因组信息学",
-      "title": "生物信息学导论 基因组信息学 - 数据资源（ 1 ）",
-      "summary": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-      "keywords": [
-        "信息",
-        "息学",
-        "生物",
-        "物信",
-        "学导",
-        "导论",
-        "生物信息学导论",
-        "基因"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "explanation": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "生物",
-            "物信"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 1,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
       "id": "genomics-core-生物信息学导论-2-基因组信息学1-张高川-s0002",
       "module": "引言及基因组信息学",
       "title": "HGP- 生物信息学发展和壮大的契机",
@@ -6999,44 +6849,6 @@
       ],
       "sourceSlides": [
         53
-      ],
-      "visualSignals": {
-        "imageCount": 1,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "genomics-core-生物信息学导论-3-基因组信息学2-张高川-new-s0001",
-      "module": "引言及基因组信息学",
-      "title": "生物信息学导论 基因组信息学 - 数据资源（ 2 ）",
-      "summary": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-      "keywords": [
-        "信息",
-        "息学",
-        "生物",
-        "物信",
-        "学导",
-        "导论",
-        "生物信息学导论",
-        "基因"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "explanation": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "生物",
-            "物信"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
       ],
       "visualSignals": {
         "imageCount": 1,
@@ -11315,44 +11127,6 @@
       ],
       "sourceSlides": [
         83
-      ],
-      "visualSignals": {
-        "imageCount": 1,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "genomics-core-生物信息学导论-4-基因组信息学3-张高川-new-s0001",
-      "module": "引言及基因组信息学",
-      "title": "生物信息学导论 基因组信息学 - 数据资源（ 3 ）",
-      "summary": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-      "keywords": [
-        "信息",
-        "息学",
-        "生物",
-        "物信",
-        "学导",
-        "导论",
-        "生物信息学导论",
-        "基因"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-          "explanation": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241 1",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "生物",
-            "物信"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
       ],
       "visualSignals": {
         "imageCount": 1,
@@ -16810,44 +16584,6 @@
       }
     },
     {
-      "id": "genomics-core-生物信息学导论-5-基因组信息学4-张高川-169-s0001",
-      "module": "引言及基因组信息学",
-      "title": "生物信息学导论 基因组信息学 - 序列比对分析",
-      "summary": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-      "keywords": [
-        "信息",
-        "息学",
-        "生物",
-        "物信",
-        "学导",
-        "导论",
-        "生物信息学导论",
-        "基因"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "explanation": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "生物",
-            "物信"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
       "id": "genomics-core-生物信息学导论-5-基因组信息学4-张高川-169-s0002",
       "module": "引言及基因组信息学",
       "title": "回顾： HGP- 生物信息学发展和壮大的契机",
@@ -21230,56 +20966,6 @@
       }
     },
     {
-      "id": "genomics-core-生物信息学导论-6-章节总结-张高川-169-s0001",
-      "module": "引言及基因组信息学",
-      "title": "章节总结复习与答疑",
-      "summary": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-      "keywords": [
-        "章节",
-        "节总",
-        "总结",
-        "生物",
-        "信息",
-        "息学",
-        "结复",
-        "复习"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "“Email”对应的内容是？",
-          "answer": "zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "explanation": "张高川 生物 信息学系 基础医学与生物科学学院 苏州大学 苏州医学院 Email: zhanggaochuan@suda.edu.cn 微 信 ： zhanggaochuan770609 QQ: 2257916241",
-          "distractors": [],
-          "keywords": [
-            "章节",
-            "节总",
-            "总结",
-            "生物"
-          ]
-        },
-        {
-          "question": "关于“章节总结复习与答疑”，下列哪项表述与知识库一致？",
-          "answer": "生物信息学导论",
-          "explanation": "生物信息学导论",
-          "distractors": [],
-          "keywords": [
-            "章节",
-            "节总",
-            "总结",
-            "生物"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
       "id": "genomics-core-生物信息学导论-6-章节总结-张高川-169-s0002",
       "module": "引言及基因组信息学",
       "title": "生命科学 【 问题 >> 数据 】",
@@ -25564,56 +25250,6 @@
       }
     },
     {
-      "id": "proteomics-core-第1讲-蛋白质组信息学-导论-s0001",
-      "module": "蛋白组信息学",
-      "title": "蛋白质组信息学",
-      "summary": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-      "keywords": [
-        "信息",
-        "息学",
-        "蛋白",
-        "白质",
-        "质组",
-        "组信",
-        "蛋白质组信息学",
-        "导论"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“蛋白质组信息学”，下列哪项表述与知识库一致？",
-          "answer": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "explanation": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "蛋白",
-            "白质"
-          ]
-        },
-        {
-          "question": "关于“蛋白质组信息学”，下列哪项表述与知识库一致？",
-          "answer": "蛋白质组信息学",
-          "explanation": "蛋白质组信息学",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "蛋白",
-            "白质"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 2,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
       "id": "proteomics-core-第1讲-蛋白质组信息学-导论-s0002",
       "module": "蛋白组信息学",
       "title": "第一节 导论",
@@ -27023,44 +26659,6 @@
       ],
       "visualSignals": {
         "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "proteomics-core-第2讲-蛋白组相关数据库及使用-s0001",
-      "module": "蛋白组信息学",
-      "title": "第 2 讲 蛋白质组相关数据库",
-      "summary": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-      "keywords": [
-        "蛋白",
-        "组相",
-        "关数",
-        "据库",
-        "白质",
-        "质组",
-        "蛋白质组相关数据库",
-        "白组"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“第 2 讲 蛋白质组相关数据库”，下列哪项表述与知识库一致？",
-          "answer": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "explanation": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "distractors": [],
-          "keywords": [
-            "蛋白",
-            "组相",
-            "关数",
-            "据库"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 2,
         "pageKind": "pptx_slide"
       }
     },
@@ -29281,44 +28879,6 @@
       }
     },
     {
-      "id": "proteomics-core-第3讲-蛋白质序列特征分析-s0001",
-      "module": "蛋白组信息学",
-      "title": "第 3 讲 蛋白质 特征分析",
-      "summary": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-      "keywords": [
-        "蛋白",
-        "白质",
-        "特征",
-        "征分",
-        "蛋白质",
-        "特征分析",
-        "质序",
-        "序列"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“第 3 讲 蛋白质 特征分析”，下列哪项表述与知识库一致？",
-          "answer": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "explanation": "苏州大学生物信息学系 肖飞 xiaofei@suda.edu.cn",
-          "distractors": [],
-          "keywords": [
-            "蛋白",
-            "白质",
-            "特征",
-            "征分"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 2,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
       "id": "proteomics-core-第3讲-蛋白质序列特征分析-s0002",
       "module": "蛋白组信息学",
       "title": "蛋白质的一级结构",
@@ -31149,44 +30709,6 @@
       ],
       "visualSignals": {
         "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "proteomics-core-第4讲-蛋白质结构分级和获取-s0001",
-      "module": "蛋白组信息学",
-      "title": "第 4 讲 蛋白质 结构分析",
-      "summary": "苏州大学生物信息学与计算生物学系 肖飞 xiaofei@suda.edu.cn",
-      "keywords": [
-        "蛋白",
-        "白质",
-        "结构",
-        "构分",
-        "蛋白质",
-        "结构分析",
-        "质结",
-        "分级"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“第 4 讲 蛋白质 结构分析”，下列哪项表述与知识库一致？",
-          "answer": "苏州大学生物信息学与计算生物学系 肖飞 xiaofei@suda.edu.cn",
-          "explanation": "苏州大学生物信息学与计算生物学系 肖飞 xiaofei@suda.edu.cn",
-          "distractors": [],
-          "keywords": [
-            "蛋白",
-            "白质",
-            "结构",
-            "构分"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 2,
         "pageKind": "pptx_slide"
       }
     },
@@ -42587,56 +42109,6 @@
       ],
       "visualSignals": {
         "imageCount": 0,
-        "pageKind": "pptx_slide"
-      }
-    },
-    {
-      "id": "transcriptomics-core-生物信息学导论-转录组信息学3-测序数据分析-s0001",
-      "module": "转录组信息学",
-      "title": "严文颖 苏州大学基础医学院 wyyan@suda.edu.cn",
-      "summary": "转录组信息学 第三讲 测序数据分析",
-      "keywords": [
-        "信息",
-        "息学",
-        "测序",
-        "wyyan",
-        "suda.edu.cn",
-        "严文",
-        "文颖",
-        "严文颖"
-      ],
-      "distractors": [],
-      "facts": [
-        {
-          "question": "关于“严文颖 苏州大学基础医学院 wyyan@suda.edu.cn”，下列哪项表述与知识库一致？",
-          "answer": "转录组信息学 第三讲 测序数据分析",
-          "explanation": "转录组信息学 第三讲 测序数据分析",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "测序",
-            "wyyan"
-          ]
-        },
-        {
-          "question": "“FastQC”对应的内容是？",
-          "answer": "用于分析 Illumina 测序平台的数据",
-          "explanation": "FastQC：用于分析 Illumina 测序平台的数据",
-          "distractors": [],
-          "keywords": [
-            "信息",
-            "息学",
-            "测序",
-            "wyyan"
-          ]
-        }
-      ],
-      "sourceSlides": [
-        1
-      ],
-      "visualSignals": {
-        "imageCount": 1,
         "pageKind": "pptx_slide"
       }
     },

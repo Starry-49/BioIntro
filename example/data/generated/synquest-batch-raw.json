@@ -1,0 +1,2262 @@
+{
+  "meta": {
+    "title": "SynQuest Generated Questions",
+    "count": 40,
+    "seed": 2026,
+    "styleBankQuestions": 100,
+    "styleTopK": 5,
+    "semanticModel": "",
+    "algorithms": [
+      "knowledge_fact_filtering",
+      "jieba_tokenization",
+      "bm25_style_retrieval",
+      "tfidf_style_retrieval",
+      "none",
+      "none",
+      "rapidfuzz_prompt_dedup",
+      "style_guided_prompt_adaptation"
+    ]
+  },
+  "questions": [
+    {
+      "id": "sq-genomics-001",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“U  T”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "“穿针引线”法"
+        },
+        {
+          "key": "B",
+          "text": "U  T"
+        },
+        {
+          "key": "C",
+          "text": "神经网络方法"
+        },
+        {
+          "key": "D",
+          "text": "同源建模方法"
+        }
+      ],
+      "answer": "B",
+      "analysis": "U  T",
+      "knowledgeRefs": [
+        "proteomics-core-第4讲-蛋白质结构分级和获取-s0038"
+      ],
+      "styleRefs": [
+        "prev_083",
+        "prev_077",
+        "prev_084"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "构分",
+        "标蛋",
+        "模型",
+        "白质",
+        "目标",
+        "结构",
+        "蛋白",
+        "质结"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-002",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "“基因组数据查看器”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Genome Data Viewer （ GDV ）"
+        },
+        {
+          "key": "B",
+          "text": "可以查看基因定位及其结构信息"
+        },
+        {
+          "key": "C",
+          "text": "支持检索基因或表型等关键词"
+        },
+        {
+          "key": "D",
+          "text": "可以查看基因表达水平"
+        }
+      ],
+      "answer": "A",
+      "analysis": "基因组数据查看器： Genome Data Viewer （ GDV ）",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-3-基因组信息学2-张高川-new-s0003"
+      ],
+      "styleRefs": [
+        "prev_024",
+        "prev_011",
+        "prev_010"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "容纲",
+        "息学",
+        "授课",
+        "本讲",
+        "纲要",
+        "讲授",
+        "课内"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-003",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“IPI”，下列哪一项术语或缩写是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "翻译后修饰"
+        },
+        {
+          "key": "B",
+          "text": "TOOLS Output cytoscape"
+        },
+        {
+          "key": "C",
+          "text": "疾病信息"
+        },
+        {
+          "key": "D",
+          "text": "序列信息"
+        }
+      ],
+      "answer": "B",
+      "analysis": "TOOLS Output cytoscape",
+      "knowledgeRefs": [
+        "proteomics-core-第2讲-蛋白组相关数据库及使用-s0003"
+      ],
+      "styleRefs": [
+        "prev_063",
+        "prev_086",
+        "prev_079"
+      ],
+      "tags": [
+        "IPI",
+        "synquest",
+        "transcriptomics",
+        "关数",
+        "及使",
+        "库及",
+        "据库",
+        "白组",
+        "组相",
+        "蛋白"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-004",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“一、聚类分析中的距离（相似性）尺度函数”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "距离尺度函数的选择取决于研究者想发现 哪种类型 的关系。 常用的表达相似性尺度 几何距离 线性相关系数 非线性相关系数 互信息"
+        },
+        {
+          "key": "B",
+          "text": "以上都可能用到，具体取决于数据特点"
+        },
+        {
+          "key": "C",
+          "text": "t检验"
+        },
+        {
+          "key": "D",
+          "text": "Fisher精确检验"
+        }
+      ],
+      "answer": "A",
+      "analysis": "距离尺度函数的选择取决于研究者想发现 哪种类型 的关系。 常用的表达相似性尺度 几何距离 线性相关系数 非线性相关系数 互信息",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学4-富集及聚类分析-s0030"
+      ],
+      "styleRefs": [
+        "prev_031",
+        "prev_064",
+        "prev_047"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "似性",
+        "信息",
+        "尺度",
+        "度函",
+        "相似",
+        "类分",
+        "聚类",
+        "距离"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-005",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“（二） t 检验法”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "t检验"
+        },
+        {
+          "key": "B",
+          "text": "否具有显著性 零假设 H∶μ=μ，即假设某基因在两种不同条件下的 平均表达水平 相等 备择假设 H∶μ≠μ"
+        },
+        {
+          "key": "C",
+          "text": "以上都可能用到，具体取决于数据特点"
+        },
+        {
+          "key": "D",
+          "text": "Fisher精确检验"
+        }
+      ],
+      "answer": "B",
+      "analysis": "t 检验可以判断基因在两种不同条件下的表达差异是否具有显著性 零假设 H∶μ=μ，即假设某基因在两种不同条件下的 平均表达水平 相等 备择假设 H∶μ≠μ",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学2-芯片数据分析-s0029"
+      ],
+      "styleRefs": [
+        "prev_064",
+        "prev_043",
+        "prev_056"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "不同",
+        "信息",
+        "假设",
+        "因在",
+        "在两",
+        "基因",
+        "息学",
+        "检验"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-proteomics-006",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“蛋白组学研究的特点与难点”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "相互作用复杂"
+        },
+        {
+          "key": "B",
+          "text": "时空特性"
+        },
+        {
+          "key": "C",
+          "text": "结构多样性"
+        },
+        {
+          "key": "D",
+          "text": "（一）同一性和多样性"
+        }
+      ],
+      "answer": "D",
+      "analysis": "（一）同一性和多样性",
+      "knowledgeRefs": [
+        "proteomics-core-第1讲-蛋白质组信息学-导论-s0020"
+      ],
+      "styleRefs": [
+        "prev_085",
+        "prev_081",
+        "prev_082"
+      ],
+      "tags": [
+        "proteomics",
+        "synquest",
+        "不同",
+        "学研",
+        "白组",
+        "白质",
+        "组学",
+        "细胞",
+        "蛋白",
+        "质组"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-007",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“生物信息学 >> 常用数据库资源”，下列哪一项术语或缩写是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "SRA Gene OMIM + ClinVar"
+        },
+        {
+          "key": "B",
+          "text": "收录了病毒（Viruses）基因组数据"
+        },
+        {
+          "key": "C",
+          "text": "收录了古细菌（Archaea）基因组数据"
+        },
+        {
+          "key": "D",
+          "text": "收录了真核生物（Eukaryota）基因组数据"
+        }
+      ],
+      "answer": "A",
+      "analysis": "SRA Gene OMIM + ClinVar",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-6-章节总结-张高川-169-s0008"
+      ],
+      "styleRefs": [
+        "prev_019",
+        "prev_018",
+        "prev_062"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "常用",
+        "息学",
+        "据库",
+        "物信",
+        "生物",
+        "生物信息学",
+        "资源"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-008",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "“错误说法”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "当两条序列对应位置的碱基错配时，应该为其相似性减分"
+        },
+        {
+          "key": "B",
+          "text": "单个碱基或氨基酸残基的错配一般是由点突变引起的"
+        },
+        {
+          "key": "C",
+          "text": "“具有 50% 同源性”、“这些序列高度同源”。 “ 长得像不一定就是一家人！ ”"
+        },
+        {
+          "key": "D",
+          "text": "当两条序列对应位置的碱基匹配时，应该为其相似性加分"
+        }
+      ],
+      "answer": "C",
+      "analysis": "不能把相似性和同源性混为一谈。 错误说法：“具有 50% 同源性”、“这些序列高度同源”。 “ 长得像不一定就是一家人！ ”",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-5-基因组信息学4-张高川-169-s0008"
+      ],
+      "styleRefs": [
+        "prev_026",
+        "prev_021",
+        "prev_029"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "同源",
+        "序列",
+        "息学",
+        "误说",
+        "说法",
+        "错误",
+        "错误说法"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-biomolecular-network-009",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“请计算 B 和 C 的紧密度”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "生物分子（如基因、蛋白质等）"
+        },
+        {
+          "key": "B",
+          "text": "节点在网络中作为“桥梁”的重要性"
+        },
+        {
+          "key": "C",
+          "text": "在图 A 中，节点 A 到 B 、 C 、 D 、 E 的距离分别为 1 ， 1 ， 1 ， 2 则节点 A 的紧密度为 1.25"
+        },
+        {
+          "key": "D",
+          "text": "节点与其他节点的连接紧密程度"
+        }
+      ],
+      "answer": "C",
+      "analysis": "在图 A 中，节点 A 到 B 、 C 、 D 、 E 的距离分别为 1 ， 1 ， 1 ， 2 则节点 A 的紧密度为 1.25 。",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0056"
+      ],
+      "styleRefs": [
+        "prev_072",
+        "prev_071",
+        "prev_069"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "synquest",
+        "密度",
+        "生物",
+        "的紧",
+        "的紧密度",
+        "紧密",
+        "计算",
+        "请计",
+        "请计算"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-010",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“UCSC (3) >> human AGGF1”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "pack"
+        },
+        {
+          "key": "B",
+          "text": "squish"
+        },
+        {
+          "key": "C",
+          "text": "输入 AGGF1 的同时，下方会自动显示相关基因， 这里选择第一个"
+        },
+        {
+          "key": "D",
+          "text": "dense"
+        }
+      ],
+      "answer": "C",
+      "analysis": "输入 AGGF1 的同时，下方会自动显示相关基因， 这里选择第一个",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-4-基因组信息学3-张高川-new-s0039"
+      ],
+      "styleRefs": [
+        "prev_012",
+        "prev_020",
+        "prev_011"
+      ],
+      "tags": [
+        "AGGF1",
+        "UCSC",
+        "genomics",
+        "human",
+        "new",
+        "synquest",
+        "信息",
+        "基因",
+        "息学",
+        "生物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-biomolecular-network-011",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "“区间的形式表示”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "介数表明了一个节点在其他节点 彼此连接中所起的作用 。 介数越高，意味着在保持网络 紧密连接性 中节点 越重要"
+        },
+        {
+          "key": "B",
+          "text": "节点与其他节点的连接紧密程度"
+        },
+        {
+          "key": "C",
+          "text": "节点与其他节点之间连接的数量"
+        },
+        {
+          "key": "D",
+          "text": "节点在网络中作为“桥梁”的重要性"
+        }
+      ],
+      "answer": "A",
+      "analysis": "介数也可以用标准化至 [0, 1] 区间的形式表示： 介数表明了一个节点在其他节点 彼此连接中所起的作用 。 介数越高，意味着在保持网络 紧密连接性 中节点 越重要 。",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0052"
+      ],
+      "styleRefs": [
+        "prev_072",
+        "prev_068",
+        "prev_069"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "synquest",
+        "也可",
+        "介数",
+        "以用",
+        "数也",
+        "用标",
+        "网络",
+        "节点",
+        "连接"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-012",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“从几何上看，聚类系数的等价定义”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "网络的整体连通性"
+        },
+        {
+          "key": "B",
+          "text": "节点所在网络模块的大小"
+        },
+        {
+          "key": "C",
+          "text": "节点邻居节点之间的连接紧密程度"
+        },
+        {
+          "key": "D",
+          "text": "三角形 以节点i为顶点之一的三元组的两种可能形式 i i"
+        }
+      ],
+      "answer": "D",
+      "analysis": "三角形 以节点i为顶点之一的三元组的两种可能形式 i i",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0049"
+      ],
+      "styleRefs": [
+        "prev_069",
+        "prev_071",
+        "prev_072"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "上看",
+        "从几",
+        "从几何上看",
+        "何上",
+        "几何",
+        "的三",
+        "聚类",
+        "节点"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-013",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“控制可视化数据轨道和样式的工具条”，下列哪项命令或参数写法是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "EMBL - EBI search DDBJ search / ARSA"
+        },
+        {
+          "key": "B",
+          "text": "Genbank >> Gene (39) >> EGFR >> RefSeq"
+        },
+        {
+          "key": "C",
+          "text": "UCSC (11) >> human AGGF1"
+        },
+        {
+          "key": "D",
+          "text": "Genbank >> Gene (33) >> EGFR >> Variation"
+        }
+      ],
+      "answer": "C",
+      "analysis": "UCSC (11) >> human AGGF1",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-4-基因组信息学3-张高川-new-s0047"
+      ],
+      "styleRefs": [
+        "prev_012",
+        "prev_025",
+        "prev_059"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "制可",
+        "化数",
+        "可视",
+        "据轨",
+        "控制",
+        "视化",
+        "轨道",
+        "道和"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-014",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“生物信息学的研究内容和方向”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "转录组学"
+        },
+        {
+          "key": "B",
+          "text": "基因组学"
+        },
+        {
+          "key": "C",
+          "text": "基因组学 转录组学 蛋白组学 代谢组学"
+        },
+        {
+          "key": "D",
+          "text": "代谢组学"
+        }
+      ],
+      "answer": "C",
+      "analysis": "基因组学 转录组学 蛋白组学 代谢组学",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0071"
+      ],
+      "styleRefs": [
+        "prev_015",
+        "prev_100",
+        "prev_078"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "学的",
+        "息学",
+        "物信",
+        "生物",
+        "的研",
+        "究内",
+        "组学"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-015",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“网络的拓扑属性”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "节点邻居节点之间的连接紧密程度"
+        },
+        {
+          "key": "B",
+          "text": "节点与其他节点的连接紧密程度"
+        },
+        {
+          "key": "C",
+          "text": "节点在网络中作为“桥梁”的重要性"
+        },
+        {
+          "key": "D",
+          "text": "连通度 聚类系数 介数 紧密度 直径 平均距离 分布函数和连通度函数"
+        }
+      ],
+      "answer": "D",
+      "analysis": "连通度 聚类系数 介数 紧密度 直径 平均距离 分布函数和连通度函数",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0044"
+      ],
+      "styleRefs": [
+        "prev_069",
+        "prev_072",
+        "prev_070"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "属性",
+        "扑属",
+        "拓扑",
+        "生物",
+        "的拓",
+        "络的",
+        "网络",
+        "网络的拓扑属性"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-016",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“1. 数据获取”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "KEGG富集分析结果可以帮助了解差异表达基因参与的生物过程"
+        },
+        {
+          "key": "B",
+          "text": "KEGG数据库只包含代谢相关的通路信息"
+        },
+        {
+          "key": "C",
+          "text": "公共数据库 测序公司 8"
+        },
+        {
+          "key": "D",
+          "text": "KEGG富集分析是基于超几何分布进行统计检验"
+        }
+      ],
+      "answer": "C",
+      "analysis": "公共数据库 测序公司 8",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学3-测序数据分析-s0008"
+      ],
+      "styleRefs": [
+        "prev_036",
+        "prev_060",
+        "prev_042"
+      ],
+      "tags": [
+        "are",
+        "in",
+        "neoplastic",
+        "of",
+        "synquest",
+        "transcriptomics",
+        "信息",
+        "息学",
+        "据获",
+        "获取"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-017",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“（二）线性相关系数”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "一系列具有相同变化趋势的数据时，运用几何距离会丢失重要信息"
+        },
+        {
+          "key": "B",
+          "text": "文本数据"
+        },
+        {
+          "key": "C",
+          "text": "分类型数据"
+        },
+        {
+          "key": "D",
+          "text": "数值型数据"
+        }
+      ],
+      "answer": "A",
+      "analysis": "几何距离比较适合衡量样本间的相似性。当基因表达数据是一系列具有相同变化趋势的数据时，运用几何距离会丢失重要信息。",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学4-富集及聚类分析-s0033"
+      ],
+      "styleRefs": [
+        "prev_031",
+        "prev_036",
+        "prev_042"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "信息",
+        "关系",
+        "性相",
+        "息学",
+        "生物",
+        "系数",
+        "线性",
+        "线性相关系数"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-018",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“生物信息学在生命科学研究中的应用 (2)”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "基因组学"
+        },
+        {
+          "key": "B",
+          "text": "药物研发 75"
+        },
+        {
+          "key": "C",
+          "text": "转录组学"
+        },
+        {
+          "key": "D",
+          "text": "代谢组学"
+        }
+      ],
+      "answer": "B",
+      "analysis": "药物研发 75",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0075"
+      ],
+      "styleRefs": [
+        "prev_015",
+        "prev_001",
+        "prev_021"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "命科",
+        "在生",
+        "学在",
+        "息学",
+        "物信",
+        "生命",
+        "生物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-019",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“内容纲要”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "13亿美元"
+        },
+        {
+          "key": "B",
+          "text": "生物信息学的 研究内容、方向及应用 人类基因组计划（ HGP ） 12"
+        },
+        {
+          "key": "C",
+          "text": "30亿美元"
+        },
+        {
+          "key": "D",
+          "text": "15亿美元"
+        }
+      ],
+      "answer": "B",
+      "analysis": "生物信息学的 研究内容、方向及应用 人类基因组计划（ HGP ） 12",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0012"
+      ],
+      "styleRefs": [
+        "prev_015",
+        "prev_004",
+        "prev_005"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "因组",
+        "基因",
+        "容纲",
+        "息学",
+        "物信",
+        "生物",
+        "纲要"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-020",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“生物信息学 >> 常用数据库资源”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "收录了古细菌（Archaea）基因组数据"
+        },
+        {
+          "key": "B",
+          "text": "HUGO 基因命名委员会（ HGNC ） 不同数据库资源的 IDs 关联"
+        },
+        {
+          "key": "C",
+          "text": "收录了真核生物（Eukaryota）基因组数据"
+        },
+        {
+          "key": "D",
+          "text": "收录了病毒（Viruses）基因组数据"
+        }
+      ],
+      "answer": "B",
+      "analysis": "HUGO 基因命名委员会（ HGNC ） 不同数据库资源的 IDs 关联",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-6-章节总结-张高川-169-s0008"
+      ],
+      "styleRefs": [
+        "prev_019",
+        "prev_013",
+        "prev_018"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "常用",
+        "息学",
+        "据库",
+        "物信",
+        "生物",
+        "生物信息学",
+        "资源"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-021",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“（一）几何距离”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "KEGG富集分析是基于超几何分布进行统计检验"
+        },
+        {
+          "key": "B",
+          "text": "KEGG数据库只包含代谢相关的通路信息"
+        },
+        {
+          "key": "C",
+          "text": "KEGG富集分析结果可以帮助了解差异表达基因参与的生物过程"
+        },
+        {
+          "key": "D",
+          "text": "几何距离可以衡量研究对象在空间上的距离远近关系 空间上相近的物体运用几何距离可以判断为同一类，而空间上较远的物体则判断为不同类"
+        }
+      ],
+      "answer": "D",
+      "analysis": "几何距离可以衡量研究对象在空间上的距离远近关系 空间上相近的物体运用几何距离可以判断为同一类，而空间上较远的物体则判断为不同类。",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学4-富集及聚类分析-s0031"
+      ],
+      "styleRefs": [
+        "prev_031",
+        "prev_036",
+        "prev_042"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "何距",
+        "信息",
+        "几何",
+        "几何距离",
+        "息学",
+        "空间",
+        "距离",
+        "间上"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-022",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "“网络的聚类系数”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "节点邻居节点之间的连接紧密程度"
+        },
+        {
+          "key": "B",
+          "text": "网络中各个节点的聚类系数的平均值，反映网络的 聚集程度"
+        },
+        {
+          "key": "C",
+          "text": "网络的整体连通性"
+        },
+        {
+          "key": "D",
+          "text": "节点所在网络模块的大小"
+        }
+      ],
+      "answer": "B",
+      "analysis": "因为 n 表示在节点 v 的所有的 k 个邻居间边的数目，则在无向网络中， n 的最大数目可以由邻居节点的两两组合数 k(k-1)/2 来确定，所以 CC 值位于 [0, 1] 区间。 当 v 的所有邻居都彼此连接时， v 的聚类系数 CC=1 ； 当 v 的邻居间不存在任何连接时， CC ＝ 0 。 网络的聚类系数:网络中各个节点的聚类系数的平均值，反映网络的 聚集程度 。",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0048"
+      ],
+      "styleRefs": [
+        "prev_069",
+        "prev_072",
+        "prev_067"
+      ],
+      "tags": [
+        "CC",
+        "synquest",
+        "transcriptomics",
+        "的聚",
+        "类系",
+        "系数",
+        "网络",
+        "聚类",
+        "节点",
+        "邻居"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-023",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“UCSC (13) >> human AGGF1”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "squish"
+        },
+        {
+          "key": "B",
+          "text": "pack"
+        },
+        {
+          "key": "C",
+          "text": "dense"
+        },
+        {
+          "key": "D",
+          "text": "点击下拉框 ： 可以设置每个数据轨道的显示 样式 ； 点击超链接 ： 可以查看该数据轨道的详细说明"
+        }
+      ],
+      "answer": "D",
+      "analysis": "点击下拉框 ： 可以设置每个数据轨道的显示 样式 ； 点击超链接 ： 可以查看该数据轨道的详细说明。",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-4-基因组信息学3-张高川-new-s0049"
+      ],
+      "styleRefs": [
+        "prev_012",
+        "prev_025",
+        "prev_024"
+      ],
+      "tags": [
+        "AGGF1",
+        "UCSC",
+        "genomics",
+        "human",
+        "new",
+        "synquest",
+        "信息",
+        "息学",
+        "物信",
+        "生物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-024",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“Page Down”，下列哪项命令或参数写法是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "NCBI >> BLAST (12) >> BLAST Human Genomes"
+        },
+        {
+          "key": "B",
+          "text": "GenBank >> NCBI Datasets >> genome >> R64"
+        },
+        {
+          "key": "C",
+          "text": "//genome-asia.ucsc.edu/cgi-bin/hgBlat"
+        },
+        {
+          "key": "D",
+          "text": "//blast.ncbi.nlm.nih.gov/Blast.cgi"
+        }
+      ],
+      "answer": "B",
+      "analysis": "GenBank >> NCBI Datasets >> genome >> R64",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-2-基因组信息学1-张高川-s0029"
+      ],
+      "styleRefs": [
+        "prev_024",
+        "prev_019",
+        "prev_008"
+      ],
+      "tags": [
+        "Down",
+        "Page",
+        "genomics",
+        "synquest",
+        "信息",
+        "因组",
+        "基于",
+        "基因",
+        "息学",
+        "查看"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-025",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "“古代的药物”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "植物、动物、矿物 →生药 →汤剂、酒剂、醑剂、散剂 →酊剂、膏剂、浸膏 ……"
+        },
+        {
+          "key": "B",
+          "text": "ADME参数"
+        },
+        {
+          "key": "C",
+          "text": "吗啡 水杨酸 药物的发展史 罂粟 柳树"
+        },
+        {
+          "key": "D",
+          "text": "“ 风、火、水、土 ”四元素， “ 冷、热、干、湿 ”四性， “ 黑胆汁、黄胆汁、血液、粘液 ”四体液病理学说。四元素与四性相互作用，决定四种体液"
+        }
+      ],
+      "answer": "A",
+      "analysis": "药物在中国的起源 —— “神农尝百草，一日而遇七十毒” 古代的药物：植物、动物、矿物 →生药 →汤剂、酒剂、醑剂、散剂 →酊剂、膏剂、浸膏 ……",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0005"
+      ],
+      "styleRefs": [
+        "prev_095",
+        "prev_089",
+        "prev_088"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "临床",
+        "发展",
+        "新药",
+        "毒性",
+        "毒理",
+        "的药",
+        "药物",
+        "药的"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-026",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "“可以对当前数据轨道进行”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "squish"
+        },
+        {
+          "key": "B",
+          "text": "pack"
+        },
+        {
+          "key": "C",
+          "text": "显示样式设置、或者获取更多相关信息"
+        },
+        {
+          "key": "D",
+          "text": "dense"
+        }
+      ],
+      "answer": "C",
+      "analysis": "在某个数据轨道上单击 鼠标右键 ， 会弹出这个工具栏，可以对当前数据轨道进行：显示样式设置、或者获取更多相关信息。",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-4-基因组信息学3-张高川-new-s0046"
+      ],
+      "styleRefs": [
+        "prev_012",
+        "prev_025",
+        "prev_011"
+      ],
+      "tags": [
+        "AGGF1",
+        "UCSC",
+        "genomics",
+        "human",
+        "new",
+        "synquest",
+        "信息",
+        "息学",
+        "物信",
+        "生物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-027",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“主要内容”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "药物研究和开发的历史及现状 药物开发流程 现代药物研究的四大技术支柱 8"
+        },
+        {
+          "key": "B",
+          "text": "药物的发展史 31"
+        },
+        {
+          "key": "C",
+          "text": "ADME参数"
+        },
+        {
+          "key": "D",
+          "text": "与药物研究相关的信息学技术"
+        }
+      ],
+      "answer": "A",
+      "analysis": "药物研究和开发的历史及现状 药物开发流程 现代药物研究的四大技术支柱 8",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0002"
+      ],
+      "styleRefs": [
+        "prev_096",
+        "prev_092",
+        "prev_088"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "主要内容",
+        "发现",
+        "甲醚",
+        "药物",
+        "蒿甲",
+        "蒿素",
+        "要内",
+        "青蒿"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-proteomics-028",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“（三）静态与动态”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "结构多样性"
+        },
+        {
+          "key": "B",
+          "text": "时空特性"
+        },
+        {
+          "key": "C",
+          "text": "相互作用复杂"
+        },
+        {
+          "key": "D",
+          "text": "（三）静态与动态 蛋白组学研究的特点与难点"
+        }
+      ],
+      "answer": "D",
+      "analysis": "（三）静态与动态 蛋白组学研究的特点与难点",
+      "knowledgeRefs": [
+        "proteomics-core-第1讲-蛋白质组信息学-导论-s0023"
+      ],
+      "styleRefs": [
+        "prev_085",
+        "prev_100",
+        "prev_080"
+      ],
+      "tags": [
+        "proteomics",
+        "synquest",
+        "与动",
+        "动态",
+        "态与",
+        "白质",
+        "蛋白",
+        "质组",
+        "静态",
+        "静态与动态"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-029",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“组学计划的拓展 >> 癌症基因组计划 1”，下列哪一项术语或缩写是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 1000 Genomes Project"
+        },
+        {
+          "key": "B",
+          "text": "TCGA 56"
+        },
+        {
+          "key": "C",
+          "text": "The Cancer Genome Atlas (TCGA)"
+        },
+        {
+          "key": "D",
+          "text": "The Cancer Genome Project (CGP)"
+        }
+      ],
+      "answer": "B",
+      "analysis": "TCGA 56",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-1-绪论及基因组学简介-张高川-s0056"
+      ],
+      "styleRefs": [
+        "prev_008",
+        "prev_007",
+        "prev_009"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "划的",
+        "因组",
+        "基因",
+        "学计",
+        "拓展",
+        "的拓",
+        "组学",
+        "计划"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-030",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“在 Genome Data Viewer （ GDV ） 中查看该基因”，下列哪项命令或参数写法是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nuclear /Chromosomal genome"
+        },
+        {
+          "key": "B",
+          "text": "Genbank >> GDV (0) >> EGFR"
+        },
+        {
+          "key": "C",
+          "text": "Genbank >> Gene (26) >> EGFR >> Genomic context"
+        },
+        {
+          "key": "D",
+          "text": "Nuclear /Chromosomal genome 29"
+        }
+      ],
+      "answer": "B",
+      "analysis": "Genbank >> GDV (0) >> EGFR",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-3-基因组信息学2-张高川-new-s0079"
+      ],
+      "styleRefs": [
+        "prev_024",
+        "prev_019",
+        "prev_008"
+      ],
+      "tags": [
+        "Data",
+        "GDV",
+        "Genome",
+        "Viewer",
+        "genomics",
+        "synquest",
+        "中查",
+        "基因",
+        "查看",
+        "看该"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-031",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“其中 d 为每对观察值 x i 与 y i 的秩次之差， n 为时间点数。”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "KEGG富集分析结果可以帮助了解差异表达基因参与的生物过程"
+        },
+        {
+          "key": "B",
+          "text": "KEGG数据库只包含代谢相关的通路信息"
+        },
+        {
+          "key": "C",
+          "text": "节点邻居节点之间的连接紧密程度"
+        },
+        {
+          "key": "D",
+          "text": "非线性相关关系模式一般用斯皮尔曼秩相关系数（Spearman's rank correlation coefficient）进行衡量∶"
+        }
+      ],
+      "answer": "D",
+      "analysis": "非线性相关关系模式一般用斯皮尔曼秩相关系数（Spearman's rank correlation coefficient）进行衡量∶",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学4-富集及聚类分析-s0035"
+      ],
+      "styleRefs": [
+        "prev_069",
+        "prev_036",
+        "prev_042"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "为每",
+        "为每对观察值",
+        "其中",
+        "察值",
+        "对观",
+        "每对",
+        "的秩",
+        "观察"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-biomolecular-network-032",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“网络的模块性”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "节点与其他节点的连接紧密程度"
+        },
+        {
+          "key": "B",
+          "text": "生物分子网络的模块性 社会网络的模块性"
+        },
+        {
+          "key": "C",
+          "text": "节点在网络中作为“桥梁”的重要性"
+        },
+        {
+          "key": "D",
+          "text": "节点的邻居节点数量"
+        }
+      ],
+      "answer": "B",
+      "analysis": "生物分子网络的模块性 社会网络的模块性",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0068"
+      ],
+      "styleRefs": [
+        "prev_072",
+        "prev_069",
+        "prev_067"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "synquest",
+        "块性",
+        "模块",
+        "物分",
+        "生物",
+        "的模",
+        "络的",
+        "网络",
+        "网络的模块性"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-033",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“异表达分析基本原理与方法”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "（一）倍数法 实验条件下的表达值 对照条件下的表达值"
+        },
+        {
+          "key": "B",
+          "text": "单因素方差分析模型"
+        },
+        {
+          "key": "C",
+          "text": "多因素方差分析模型"
+        },
+        {
+          "key": "D",
+          "text": "简单的两组比较"
+        }
+      ],
+      "answer": "A",
+      "analysis": "（一）倍数法 实验条件下的表达值 对照条件下的表达值",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学2-芯片数据分析-s0028"
+      ],
+      "styleRefs": [
+        "prev_066",
+        "prev_050",
+        "prev_042"
+      ],
+      "tags": [
+        "synquest",
+        "transcriptomics",
+        "信息",
+        "基本",
+        "异表",
+        "息学",
+        "本原",
+        "析基",
+        "表达",
+        "达分"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-034",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "“此两阶段的目的”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "基因组学，蛋白质组学等 生物信息学 & 分子生物学 高通量筛选 虚拟筛选库的建立 组合化学 分子对接 In vitro & in silico ADME testing 其他的理论模拟"
+        },
+        {
+          "key": "B",
+          "text": "临床前 研究 Pre-clinical Studies"
+        },
+        {
+          "key": "C",
+          "text": "ADME参数"
+        },
+        {
+          "key": "D",
+          "text": "生产出安全、有效的治疗药物 8-10 年 80%-90% 的候选药物在临床前的药理测试阶段被淘汰，主要由于 ADMET 测试、有效性和副作用的原因不通过"
+        }
+      ],
+      "answer": "D",
+      "analysis": "此两阶段的目的： 生产出安全、有效的治疗药物 8-10 年 80%-90% 的候选药物在临床前的药理测试阶段被淘汰，主要由于 ADMET 测试、有效性和副作用的原因不通过。",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0015"
+      ],
+      "styleRefs": [
+        "prev_095",
+        "prev_092",
+        "prev_088"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "发流",
+        "开发",
+        "流程",
+        "物发",
+        "物开",
+        "药物",
+        "药物开发流程",
+        "阶段"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-035",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“现代药物研究四大技术支柱”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "分子生物学"
+        },
+        {
+          "key": "B",
+          "text": "高通量筛选"
+        },
+        {
+          "key": "C",
+          "text": "与药物研究相关的信息学技术"
+        },
+        {
+          "key": "D",
+          "text": "分子生物学、基因组学及蛋白质组学 发现疾病靶标"
+        }
+      ],
+      "answer": "D",
+      "analysis": "分子生物学、基因组学及蛋白质组学 发现疾病靶标",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0031"
+      ],
+      "styleRefs": [
+        "prev_096",
+        "prev_100",
+        "prev_092"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "代药",
+        "四大",
+        "大技",
+        "技术",
+        "物研",
+        "现代",
+        "究四",
+        "药物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-036",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“常见分子生物网络的分类”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "信号转导网络 表观遗传调控网络 蛋白互作网络"
+        },
+        {
+          "key": "B",
+          "text": "信号转导网络"
+        },
+        {
+          "key": "C",
+          "text": "代谢网络"
+        },
+        {
+          "key": "D",
+          "text": "蛋白质-蛋白质相互作用网络（PPI 网络）"
+        }
+      ],
+      "answer": "A",
+      "analysis": "信号转导网络 表观遗传调控网络 蛋白互作网络",
+      "knowledgeRefs": [
+        "biomolecular-network-core-生物信息学导论-生物分子网络1-2-s0018"
+      ],
+      "styleRefs": [
+        "prev_073",
+        "prev_071",
+        "prev_067"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "分子",
+        "子生",
+        "常见",
+        "物网",
+        "生物",
+        "络的",
+        "网络",
+        "见分"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-genomics-037",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“组装水平”，下列哪项命令或参数写法是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "// pubmed .ncbi.nlm.nih.gov/ 检索： Systems biology [ti]"
+        },
+        {
+          "key": "B",
+          "text": "// pubmed .ncbi.nlm.nih.gov/ 检索： TCGA [ti]"
+        },
+        {
+          "key": "C",
+          "text": "GenBank >> NCBI Datasets >> genome >> Filters"
+        },
+        {
+          "key": "D",
+          "text": "// pubmed .ncbi.nlm.nih.gov/ 检索：human genome project[ti]"
+        }
+      ],
+      "answer": "C",
+      "analysis": "GenBank >> NCBI Datasets >> genome >> Filters",
+      "knowledgeRefs": [
+        "genomics-core-生物信息学导论-2-基因组信息学1-张高川-s0023"
+      ],
+      "styleRefs": [
+        "prev_024",
+        "prev_042",
+        "prev_019"
+      ],
+      "tags": [
+        "genomics",
+        "synquest",
+        "信息",
+        "息学",
+        "水平",
+        "物信",
+        "生物",
+        "组装",
+        "组装水平",
+        "装水"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-038",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "“慢性毒性研究包括”对应的内容是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "致突变作用和生殖毒性"
+        },
+        {
+          "key": "B",
+          "text": "有效性评估"
+        },
+        {
+          "key": "C",
+          "text": "ADME参数"
+        },
+        {
+          "key": "D",
+          "text": "毒性测试"
+        }
+      ],
+      "answer": "A",
+      "analysis": "药物的发展史 17 慢性毒性研究包括： 致突变作用和生殖毒性",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0005"
+      ],
+      "styleRefs": [
+        "prev_095",
+        "prev_093",
+        "prev_098"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "临床",
+        "发展",
+        "新药",
+        "毒性",
+        "毒理",
+        "的药",
+        "药物",
+        "药的"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-transcriptomics-039",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "type": "single_choice",
+      "prompt": "关于“聚类分析（ Cluster analysis ）”，下列哪项表述正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "文本数据"
+        },
+        {
+          "key": "B",
+          "text": "数值型数据"
+        },
+        {
+          "key": "C",
+          "text": "分类型数据"
+        },
+        {
+          "key": "D",
+          "text": "基于物体的相似性将物体分成不同的组"
+        }
+      ],
+      "answer": "D",
+      "analysis": "基于物体的相似性将物体分成不同的组",
+      "knowledgeRefs": [
+        "transcriptomics-core-生物信息学导论-转录组信息学4-富集及聚类分析-s0027"
+      ],
+      "styleRefs": [
+        "prev_031",
+        "prev_035",
+        "prev_047"
+      ],
+      "tags": [
+        "Cluster",
+        "analysis",
+        "synquest",
+        "transcriptomics",
+        "信息",
+        "息学",
+        "生物",
+        "类分",
+        "聚类",
+        "聚类分析"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    },
+    {
+      "id": "sq-cadd-040",
+      "source": "SynQuest",
+      "origin": "generated",
+      "year": null,
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "type": "single_choice",
+      "prompt": "关于“现代药物研究四大技术支柱”，下列哪个时间或数值是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "500 个"
+        },
+        {
+          "key": "B",
+          "text": "000 个"
+        },
+        {
+          "key": "C",
+          "text": "10000 个"
+        },
+        {
+          "key": "D",
+          "text": "4 个"
+        }
+      ],
+      "answer": "B",
+      "analysis": "高通量筛选 一天可测量 100,000 个化合物 可能有几万对蛋白质靶体表现出活性 需筛选出 2-3 类最有可能成为药物的化合物重点研究",
+      "knowledgeRefs": [
+        "cadd-core-计算机辅助药物发现-第1讲-s0033"
+      ],
+      "styleRefs": [
+        "prev_096",
+        "prev_093",
+        "prev_090"
+      ],
+      "tags": [
+        "cadd",
+        "synquest",
+        "代药",
+        "四大",
+        "大技",
+        "技术",
+        "物研",
+        "现代",
+        "究四",
+        "药物"
+      ],
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null
+    }
+  ]
+}
