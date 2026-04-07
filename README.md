@@ -88,10 +88,31 @@ python -m synquest synthesize \
 - 焦点主题有效性验证
 - 选项签名兼容性过滤
 
+## 环境要求
+
+- **Python** >= 3.9（开发环境 3.12.2）
+
+### Python 依赖
+
+| 包名 | 最低版本 | 用途 |
+|------|---------|------|
+| [jieba](https://github.com/fxsjy/jieba) | >= 0.42.1 | 中文分词，用于 BM25 索引构建与关键词提取 |
+| [rank-bm25](https://github.com/dorianbrown/rank_bm25) | >= 0.2.2 | BM25Okapi 词汇级检索 |
+| [rapidfuzz](https://github.com/rapidfuzz/RapidFuzz) | >= 3.0.0 | 模糊字符串匹配，用于提示去重与相似度评分 |
+| [scikit-learn](https://scikit-learn.org/) | >= 1.4 | TF-IDF 向量化 + 余弦相似度计算 |
+| [sentence-transformers](https://www.sbert.net/) | >= 5.1.2 | （可选）Transformer 语义嵌入检索 |
+| [markitdown](https://github.com/microsoft/markitdown) | >= 0.1.5 | 多格式文档转 Markdown（DOCX / PDF / PPTX 等） |
+
+安装全部依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
 ## GitHub Pages
 
 访问 [https://starry-49.github.io/BioIntro/](https://starry-49.github.io/BioIntro/) 体验在线题库。
 
 ## License
 
-MIT
+[MIT License](LICENSE) - Copyright (c) 2026 Starry-49
