@@ -51,6 +51,7 @@ button, input, select, textarea { font: inherit; }
   display: inline-flex; align-items: center; gap: 14px;
   font-weight: 600; letter-spacing: -0.02em; line-height: 1.2;
 }
+.nav-brand img, .hero-eyebrow img { width: 34px; height: 34px; border-radius: 11px; flex-shrink: 0; align-self: center; }
 .nav-brand span, .hero-eyebrow span { display: block; }
 .hero-eyebrow {
   width: fit-content; padding: 12px 16px; border-radius: 999px;

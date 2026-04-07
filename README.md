@@ -1,6 +1,10 @@
-# BioIntro - 生物信息学导论题库
+<p align="center">
+  <img src="logo.png" alt="BioIntro Logo" width="180">
+</p>
 
-基于 Transformer 语义检索与知识驱动的智能题库生成系统。
+<h1 align="center">BioIntro - 生物信息学导论题库</h1>
+
+<p align="center">基于 Transformer 语义检索与知识驱动的智能题库生成系统</p>
 
 ## 项目概述
 
