@@ -6,6 +6,18 @@
 
 <p align="center">基于 Transformer 语义检索与知识驱动的智能题库生成系统</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/version-v1.0-blue" alt="version">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
+  <img src="https://img.shields.io/badge/platform-Claude%20Code-blueviolet" alt="platform">
+  <img src="https://img.shields.io/badge/python-%3E%3D3.9-yellow" alt="python">
+  <img src="https://img.shields.io/badge/jieba-0.42.1-orange" alt="jieba">
+  <img src="https://img.shields.io/badge/scikit--learn-%3E%3D1.4-orange" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/rapidfuzz-%3E%3D3.0-orange" alt="rapidfuzz">
+  <img src="https://img.shields.io/badge/sentence--transformers-%3E%3D5.1-orange" alt="sentence-transformers">
+  <img src="https://img.shields.io/badge/markitdown-%3E%3D0.1.5-orange" alt="markitdown">
+</p>
+
 ## 项目概述
 
 BioIntro 是一个针对《生物信息学导论》课程的知识驱动题库系统，结合以下核心算法：
