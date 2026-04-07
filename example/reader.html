@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioIntro 知识阅读</title>
+  <meta name="description" content="Reader page for BioIntro. Read knowledge modules and linked questions.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="page-nav">
+      <a class="nav-brand" href="./"><span>BioIntro</span></a>
+      <div class="nav-links">
+        <a href="./">首页</a>
+        <a href="./practice.html">答题页</a>
+        <a href="./reader.html" aria-current="page">Reader</a>
+        <a href="https://github.com/Starry-49/BioIntro" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-home-copy">
+          <div class="hero-eyebrow"><span>Knowledge Reader</span></div>
+          <h1 id="readerTitle">BioIntro 知识阅读</h1>
+          <p class="hero-copy" id="readerSubtitle">围绕知识模块组织阅读，查看事实、关联题目与答案解析。</p>
+        </div>
+        <div class="hero-home-aside hero-kpi-grid">
+          <article class="hero-kpi"><span class="label">Read</span><span class="value">Module</span><h3>知识模块阅读</h3><p class="panel-subtitle">先看概念和事实，再决定是否看题。</p></article>
+          <article class="hero-kpi"><span class="label">Map</span><span class="value">Question</span><h3>题目映射</h3><p class="panel-subtitle">快速定位关联题目和答案解析。</p></article>
+          <article class="hero-kpi"><span class="label">Trace</span><span class="value">KB</span><h3>回到知识源</h3><p class="panel-subtitle">检查知识库是否足以支撑题目生成。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reader-layout">
+      <aside class="reader-sidebar">
+        <section class="panel">
+          <div class="panel-title"><div><h2>知识模块</h2><p class="panel-subtitle">切换当前阅读模块。</p></div></div>
+          <div id="moduleTree" class="tree-list"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-title"><div><h2>关联题目</h2><p class="panel-subtitle">浏览当前模块下的题目。</p></div></div>
+          <div id="questionTree" class="tree-list"></div>
+        </section>
+      </aside>
+      <section class="reader-main">
+        <section class="section-panel"><div id="readerContent"></div></section>
+      </section>
+    </section>
+  </main>
+
+  <script src="assets/reader.js"></script>
+</body>
+</html>

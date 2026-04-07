@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.egg-info/
+data/generated/*.tmp.json
+example/data/generated/figure-assets/
+slides/
+previous.docx
+.claude/

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioIntro 生信导论题库</title>
+  <meta name="description" content="BioIntro: knowledge-driven question bank for Bioinformatics Introduction course.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="page-nav">
+      <a class="nav-brand" href="./">
+        <span>BioIntro</span>
+      </a>
+      <div class="nav-links">
+        <a href="./" aria-current="page">首页</a>
+        <a href="./practice.html">答题页</a>
+        <a href="./reader.html">Reader</a>
+        <a href="https://github.com/Starry-49/BioIntro" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-home-copy">
+          <div class="hero-eyebrow">
+            <span>Bioinformatics Introduction Portal</span>
+          </div>
+          <h1>BioIntro 生信导论题库</h1>
+          <p class="hero-copy">
+            基于 Transformer 语义检索、图像近邻文字摘取与相似度打分机制，
+            从课程 PPTX 幻灯片中抽取知识，结合旧题风格生成新题。
+            支持在线答题、抽题测试与知识模块阅读。
+          </p>
+          <div class="hero-note">
+            SynQuest 引擎提供知识抽取（BM25 + TF-IDF + Semantic Embedding）、
+            风格检索与题目生成能力。BioIntro 展示其在《生物信息学导论》场景下的应用。
+          </div>
+        </div>
+
+        <div class="hero-home-aside hero-kpi-grid">
+          <article class="hero-kpi">
+            <span class="label">Topics</span>
+            <span class="value">5</span>
+            <h3>五大知识板块</h3>
+            <p class="panel-subtitle">基因组、转录组、蛋白组、生物网络、计算机辅助药物发现。</p>
+          </article>
+          <article class="hero-kpi">
+            <span class="label">Formats</span>
+            <span class="value">Multi</span>
+            <h3>多格式知识源</h3>
+            <p class="panel-subtitle">支持 PPTX、PDF、DOCX、Markdown、JSON 等多种文档格式输入。</p>
+          </article>
+          <article class="hero-kpi">
+            <span class="label">Engine</span>
+            <span class="value">SynQuest</span>
+            <h3>混合检索引擎</h3>
+            <p class="panel-subtitle">BM25 + TF-IDF + RapidFuzz + Sentence-Transformer 四路混合检索。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature-card">
+        <h3>知识抽取</h3>
+        <p class="panel-subtitle">从 PPTX 幻灯片中自动提取标题、正文、备注，生成结构化知识库（962 条知识条目）。</p>
+      </article>
+      <article class="feature-card">
+        <h3>风格驱动生成</h3>
+        <p class="panel-subtitle">基于旧题风格，通过混合检索匹配相似题目，适配新知识生成高质量选择题。</p>
+      </article>
+      <article class="feature-card">
+        <h3>在线练习与测验</h3>
+        <p class="panel-subtitle">支持按主题、题型筛选，卡片式作答、抽题测试、即时判分与浏览器本地记录。</p>
+      </article>
+    </section>
+
+    <section class="section-panel home-section">
+      <div class="section-title">
+        <div>
+          <h2>核心算法</h2>
+          <p class="panel-subtitle">BioIntro 的题目生成流程涉及以下关键算法。</p>
+        </div>
+      </div>
+      <div class="source-grid">
+        <article class="source-item">
+          <h3>OOXML 解析</h3>
+          <p class="panel-subtitle">直接解析 PPTX/DOCX 的 XML 结构，提取标题占位符、正文与备注。</p>
+        </article>
+        <article class="source-item">
+          <h3>Jieba 分词 + BM25</h3>
+          <p class="panel-subtitle">中文分词后构建 BM25 索引，实现高效的词汇级检索。</p>
+        </article>
+        <article class="source-item">
+          <h3>TF-IDF + Cosine</h3>
+          <p class="panel-subtitle">基于 n-gram TF-IDF 向量化，计算余弦相似度进行风格匹配。</p>
+        </article>
+        <article class="source-item">
+          <h3>Semantic Embedding</h3>
+          <p class="panel-subtitle">可选 Sentence-Transformer 语义嵌入，实现深层语义检索。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel home-section">
+      <div class="section-title">
+        <div>
+          <h2>功能入口</h2>
+          <p class="panel-subtitle">围绕练习、阅读与题库扩展组织主要功能。</p>
+        </div>
+      </div>
+      <div class="page-switch-grid">
+        <article class="stage-card">
+          <h3>Practice</h3>
+          <p class="panel-subtitle">浏览 100 道旧题 + 生成新题，在线作答、抽题测试、导出。</p>
+        </article>
+        <article class="stage-card">
+          <h3>Reader</h3>
+          <p class="panel-subtitle">围绕知识模块组织阅读，查看事实、答案解析和关联题目。</p>
+        </article>
+        <article class="stage-card">
+          <h3>SynQuest Layer</h3>
+          <p class="panel-subtitle">查看 functions 和示例数据结构，迁移到你自己的知识库项目。</p>
+        </article>
+      </div>
+    </section>
+
+    <p class="footer-note">
+      BioIntro &middot; 基于 SynQuest 引擎 &middot; 知识驱动的题目生成与管理
+    </p>
+  </main>
+</body>
+</html>

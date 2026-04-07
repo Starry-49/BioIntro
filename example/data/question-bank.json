@@ -1,0 +1,4346 @@
+{
+  "meta": {
+    "title": "BioIntro Question Bank",
+    "subtitle": "Structured archive from bioinformatics introduction course",
+    "generatedAt": "2026-04-07T11:15:36+00:00",
+    "totalQuestions": 100,
+    "sources": [
+      "Previous"
+    ],
+    "topics": [
+      {
+        "id": "biomolecular-network",
+        "name": "生物分子网络",
+        "count": 6
+      },
+      {
+        "id": "cadd",
+        "name": "计算机辅助药物发现",
+        "count": 11
+      },
+      {
+        "id": "genomics",
+        "name": "引言及基因组信息学",
+        "count": 37
+      },
+      {
+        "id": "proteomics",
+        "name": "蛋白组信息学",
+        "count": 12
+      },
+      {
+        "id": "transcriptomics",
+        "name": "转录组信息学",
+        "count": 34
+      }
+    ],
+    "types": {
+      "multiple_choice": 33,
+      "single_choice": 67
+    },
+    "imageQuestionCount": 0,
+    "noteImageCount": 0
+  },
+  "questions": [
+    {
+      "id": "prev_001",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下不是生物信息学的主要研究领城的是",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "结构生物信息学"
+        },
+        {
+          "key": "B",
+          "text": "纳米材料"
+        },
+        {
+          "key": "C",
+          "text": "基因组分析"
+        },
+        {
+          "key": "D",
+          "text": "序列分析"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_002",
+      "year": null,
+      "source": "Previous",
+      "prompt": "人类细胞的基因组约有",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "3000万对碱基"
+        },
+        {
+          "key": "B",
+          "text": "3亿对碱基"
+        },
+        {
+          "key": "C",
+          "text": "30亿对碱基"
+        },
+        {
+          "key": "D",
+          "text": "300亿对碱基"
+        },
+        {
+          "key": "E",
+          "text": "3000亿对碱基"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_003",
+      "year": null,
+      "source": "Previous",
+      "prompt": "人类基因组规模有多大？",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "13亿对碱基"
+        },
+        {
+          "key": "B",
+          "text": "23亿对碱基"
+        },
+        {
+          "key": "C",
+          "text": "30亿对碱基"
+        },
+        {
+          "key": "D",
+          "text": "33亿对碱基"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_004",
+      "year": null,
+      "source": "Previous",
+      "prompt": "人类基因组计划投入经费有多少？",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "13亿美元"
+        },
+        {
+          "key": "B",
+          "text": "15亿美元"
+        },
+        {
+          "key": "C",
+          "text": "30亿美元"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_005",
+      "year": null,
+      "source": "Previous",
+      "prompt": "协调人类基因组计划各个参与成员的组织是哪个",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "NIH"
+        },
+        {
+          "key": "B",
+          "text": "NCBI"
+        },
+        {
+          "key": "C",
+          "text": "HUGO"
+        },
+        {
+          "key": "D",
+          "text": "BGI"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_006",
+      "year": null,
+      "source": "Previous",
+      "prompt": "中国在人类基因组计划中承担是第几号染色体部分区域的测序工作",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "X"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "Y"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_007",
+      "year": null,
+      "source": "Previous",
+      "prompt": "COSMIC是一个有关癌症体细胞突变信息的权威数据库，它是哪一项基因组计划提供的",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "The 1000 Genomes Project"
+        },
+        {
+          "key": "B",
+          "text": "The Cancer Genome Athas (TCGA)"
+        },
+        {
+          "key": "C",
+          "text": "The Cancer Genome Project"
+        },
+        {
+          "key": "D",
+          "text": "Pedatur Cancer Genome Project (PCGP)"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_008",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列哪一个是儿童癌症基因组计划",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Pediatric Cancer Genome Project (PCGP)"
+        },
+        {
+          "key": "B",
+          "text": "The Cancer Genome Atlas (TCGA)"
+        },
+        {
+          "key": "C",
+          "text": "The 1000 Genomes Project"
+        },
+        {
+          "key": "D",
+          "text": "The Cancer Genome Project (CGP)"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_009",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列哪一个项目与DNA调控元件有关",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "TCGA"
+        },
+        {
+          "key": "B",
+          "text": "HapMap"
+        },
+        {
+          "key": "C",
+          "text": "CGP"
+        },
+        {
+          "key": "D",
+          "text": "ENCODE"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_010",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如果想要了解生物医学目前的最新研究进展，可以查阅哪一个数据库",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "PubMed"
+        },
+        {
+          "key": "B",
+          "text": "Protein"
+        },
+        {
+          "key": "C",
+          "text": "Gene"
+        },
+        {
+          "key": "D",
+          "text": "Genome"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_011",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如果想找某个物种的基因组相关信息，下面哪一个数据库可用",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "PubMed"
+        },
+        {
+          "key": "B",
+          "text": "Protein"
+        },
+        {
+          "key": "C",
+          "text": "Gene"
+        },
+        {
+          "key": "D",
+          "text": "Genome"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_012",
+      "year": null,
+      "source": "Previous",
+      "prompt": "UCSC基因组浏览器的数据轨道有多种显示模式，下列哪种模式可以让数据轨道完全显示",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "dense"
+        },
+        {
+          "key": "B",
+          "text": "squish"
+        },
+        {
+          "key": "C",
+          "text": "pack"
+        },
+        {
+          "key": "D",
+          "text": "full"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_013",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关GenBank数据库描述正确的有哪些",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Genbank数据库中只保存了各种核酸序列数据"
+        },
+        {
+          "key": "B",
+          "text": "Genbank数据库中只保存了基因相关数据"
+        },
+        {
+          "key": "C",
+          "text": "Genbank是一个综合型数据库，包含了数十种不同的子数据库"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_014",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下关于基因调控网络的描述，错误的是",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "基因调控网络仅包含正向调控关系"
+        },
+        {
+          "key": "B",
+          "text": "网络中的边可表示调控的强度和方向"
+        },
+        {
+          "key": "C",
+          "text": "基因调控网络可通过转录因子与靶基因的结合关系构建"
+        },
+        {
+          "key": "D",
+          "text": "可利用基因表达数据反向推断基因调控网络"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_015",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列哪些是生物信息学的研究方向",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "转录组学"
+        },
+        {
+          "key": "B",
+          "text": "基因组学"
+        },
+        {
+          "key": "C",
+          "text": "代谢组学"
+        },
+        {
+          "key": "D",
+          "text": "蛋白质组学"
+        },
+        {
+          "key": "E",
+          "text": "表观组学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_016",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如果想在PubMed中查找标题或摘要中含有“apoptosis”这个关键词的文章，下列检索式中哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "apoptosis[title/abstract]"
+        },
+        {
+          "key": "B",
+          "text": "apoptosis[TIAB]"
+        },
+        {
+          "key": "C",
+          "text": "apoptosis[title]"
+        },
+        {
+          "key": "D",
+          "text": "apoptosis[tiab]"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_017",
+      "year": null,
+      "source": "Previous",
+      "prompt": "基因组范畴包括下面哪些",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "线粒体基因组"
+        },
+        {
+          "key": "B",
+          "text": "病毒基因组"
+        },
+        {
+          "key": "C",
+          "text": "核或染色体基因组"
+        },
+        {
+          "key": "D",
+          "text": "叶绿体基因组"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_018",
+      "year": null,
+      "source": "Previous",
+      "prompt": "生物信息学领域常说的三大数据库是指下面哪三个",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "EMBL"
+        },
+        {
+          "key": "B",
+          "text": "Genbank"
+        },
+        {
+          "key": "C",
+          "text": "DDBJ"
+        },
+        {
+          "key": "D",
+          "text": "PubMed"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_019",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列关于Genbank基因组数据库资源的描述哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "收录了古细菌（Archaea）基因组数据"
+        },
+        {
+          "key": "B",
+          "text": "收录了真核生物（Eukaryota）基因组数据"
+        },
+        {
+          "key": "C",
+          "text": "收录了病毒（Viruses）基因组数据"
+        },
+        {
+          "key": "D",
+          "text": "收录了真细菌（Bacteria） 基因组数据"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_020",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如果想在PubMed中查找标题同时含有 “genomics”和“cancer”这两个关键词的文章，下列检索式哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "genomics[ti] AND cancer[ti]"
+        },
+        {
+          "key": "B",
+          "text": "genomics[ti] and cancer[ti]"
+        },
+        {
+          "key": "C",
+          "text": "(genomics cancer) [ti]"
+        },
+        {
+          "key": "D",
+          "text": "genomics[ti] cancer[ti]"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_021",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关BLAST比对结果解读的描述中，哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "一致性越高越相似"
+        },
+        {
+          "key": "B",
+          "text": "Evalue越低越相似"
+        },
+        {
+          "key": "C",
+          "text": "相似性得分越高越相似"
+        },
+        {
+          "key": "D",
+          "text": "与序列A的一致性高于序列B，则与A的整体相似性肯定高于B"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_022",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关Ensembl数据库的描述中，正确的有哪些",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "只提供了人类基因组数据资源"
+        },
+        {
+          "key": "B",
+          "text": "提供了许多不同基因组数据资源"
+        },
+        {
+          "key": "C",
+          "text": "搜索工具不能检索疾病关键词"
+        },
+        {
+          "key": "D",
+          "text": "搜索工具能够检索基因名称"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_023",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如果想在PubMed中查找发表在顶级期刊cell上，且标题中含有“cancer”的文章，下列检索式中哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "cell[journal] cancer[TI]"
+        },
+        {
+          "key": "B",
+          "text": "cell[journal] cancer[ti]"
+        },
+        {
+          "key": "C",
+          "text": "cell[TA] cancer[ti]"
+        },
+        {
+          "key": "D",
+          "text": "cell[TA] cancer[title]"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_024",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关Genbank数据库的Genome Data Viewer描述中，有哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "支持检索基因或表型等关键词"
+        },
+        {
+          "key": "B",
+          "text": "可以查看基因表达水平"
+        },
+        {
+          "key": "C",
+          "text": "可以查看基因定位及其结构信息"
+        },
+        {
+          "key": "D",
+          "text": "可以查看基因变异数据"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_025",
+      "year": null,
+      "source": "Previous",
+      "prompt": "UCSC基因组浏览器的数据轨道中包含下列哪些信息",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "基因变异数据"
+        },
+        {
+          "key": "B",
+          "text": "基因表达调控数据"
+        },
+        {
+          "key": "C",
+          "text": "基因预测结果"
+        },
+        {
+          "key": "D",
+          "text": "遗传表型数据"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_026",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下面有关序列比对的说法哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "当两条序列对应位置的碱基错配时，应该为其相似性减分"
+        },
+        {
+          "key": "B",
+          "text": "当两条序列对应位置的碱基匹配时，应该为其相似性加分"
+        },
+        {
+          "key": "C",
+          "text": "单个碱基或氨基酸残基的错配一般是由点突变引起的"
+        },
+        {
+          "key": "D",
+          "text": "插入或缺失突变会导致序列比对时引入空位"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_027",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列关于人类基因组的描述哪些是正确的",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "人类线粒体基因组大小约16kb"
+        },
+        {
+          "key": "B",
+          "text": "人类基因组包括46条染色体基因组"
+        },
+        {
+          "key": "C",
+          "text": "人类基因组包括若干线粒体基因组"
+        },
+        {
+          "key": "D",
+          "text": "人类基因组包括24条染色体基因"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_028",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关OMIM数据库的描述中，正确的有哪些",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "人类基因变异与遗传表型之间的关联数据"
+        },
+        {
+          "key": "B",
+          "text": "支持检索遗传表型"
+        },
+        {
+          "key": "C",
+          "text": "支持检索特定基因"
+        },
+        {
+          "key": "D",
+          "text": "支持任意关键词检索"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_029",
+      "year": null,
+      "source": "Previous",
+      "prompt": "序列比对时，常用的蛋白质打分矩阵有哪些",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "PAM"
+        },
+        {
+          "key": "B",
+          "text": "BLOSUM"
+        },
+        {
+          "key": "C",
+          "text": "FASTA"
+        },
+        {
+          "key": "D",
+          "text": "BLOCKS"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_030",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下关于RNA-seq数据定量的说法，正确的是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "定量结果不受比对算法的影响"
+        },
+        {
+          "key": "B",
+          "text": "不同定量方法得到的结果可能存在差异"
+        },
+        {
+          "key": "C",
+          "text": "定量仅针对编码基因"
+        },
+        {
+          "key": "D",
+          "text": "定量时无需考虑测序文库的类型"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_031",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在聚类分析中，欧几里得距离（Euclidean distance）常用于衡量以下哪种数据之间的相似性",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "分类型数据"
+        },
+        {
+          "key": "B",
+          "text": "数值型数据"
+        },
+        {
+          "key": "C",
+          "text": "文本数据"
+        },
+        {
+          "key": "D",
+          "text": "图像数据"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_032",
+      "year": null,
+      "source": "Previous",
+      "prompt": "对于RNA-seq数据的差异表达分析，若采用DESeq2软件，其核心算法基于以下哪种分布模型",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "负二项分布"
+        },
+        {
+          "key": "B",
+          "text": "正态分布"
+        },
+        {
+          "key": "C",
+          "text": "泊松分布"
+        },
+        {
+          "key": "D",
+          "text": "指数分布"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_033",
+      "year": null,
+      "source": "Previous",
+      "prompt": "若要对转录组差异表达基因进行功能富集分析，除了GO和KEGG数据库，还可使用",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Reactome数据库"
+        },
+        {
+          "key": "B",
+          "text": "PDB数据库"
+        },
+        {
+          "key": "C",
+          "text": "GenBank数据库"
+        },
+        {
+          "key": "D",
+          "text": "PubMed数据库"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_034",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组测序数据分析中，以下哪个步骤用于将测序reads比对到参考基因组上",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "质量控制"
+        },
+        {
+          "key": "B",
+          "text": "表达量计算"
+        },
+        {
+          "key": "C",
+          "text": "差异表达分析"
+        },
+        {
+          "key": "D",
+          "text": "序列比对"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_035",
+      "year": null,
+      "source": "Previous",
+      "prompt": "关于生物信息学中的数据整合，以下说法正确的是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "整合不同类型数据时不需要进行标准化"
+        },
+        {
+          "key": "B",
+          "text": "数据整合有助于挖掘更全面的生物学信息"
+        },
+        {
+          "key": "C",
+          "text": "整合后的数据无法进行差异分析"
+        },
+        {
+          "key": "D",
+          "text": "数据整合仅针对转录组数据"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_036",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下关于KEGG（Kyoto Encyclopedia of Genes and Genomes）富集分析的说法，错误的是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "KEGG富集分析结果可以帮助了解差异表达基因参与的生物过程"
+        },
+        {
+          "key": "B",
+          "text": "KEGG数据库只包含代谢相关的通路信息"
+        },
+        {
+          "key": "C",
+          "text": "KEGG富集分析是基于超几何分布进行统计检验"
+        },
+        {
+          "key": "D",
+          "text": "KEGG可以用于分析代谢通路"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_037",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在芯片数据分析中，探针集（Probe Set）通常对应于",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "多个基因"
+        },
+        {
+          "key": "B",
+          "text": "一种RNA分子"
+        },
+        {
+          "key": "C",
+          "text": "一个基因"
+        },
+        {
+          "key": "D",
+          "text": "一段DNA序列"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_038",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下面哪个scRNA-seq技术的测序通量相对最大",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "10X Chromium"
+        },
+        {
+          "key": "B",
+          "text": "CEL-seq2"
+        },
+        {
+          "key": "C",
+          "text": "SMART-seq2"
+        },
+        {
+          "key": "D",
+          "text": "MARS-seq"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_039",
+      "year": null,
+      "source": "Previous",
+      "prompt": "芯片数据在进行分析前，原始数据文件（CEL）记录的主要信息是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "样本的临床信息"
+        },
+        {
+          "key": "B",
+          "text": "芯片的生产批次"
+        },
+        {
+          "key": "C",
+          "text": "探针的荧光强度值"
+        },
+        {
+          "key": "D",
+          "text": "基因的功能注释"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_040",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪种技术可以检测基因的可变剪接事件",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Western blot"
+        },
+        {
+          "key": "B",
+          "text": "基因芯片"
+        },
+        {
+          "key": "C",
+          "text": "实时定量PCR"
+        },
+        {
+          "key": "D",
+          "text": "RNA-seq"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_041",
+      "year": null,
+      "source": "Previous",
+      "prompt": "当进行GO富集分析时，P值越小说明什么",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "该GO term包含的基因数量越少"
+        },
+        {
+          "key": "B",
+          "text": "该GO term富集的基因越显著"
+        },
+        {
+          "key": "C",
+          "text": "该GO term与实验结果无关"
+        },
+        {
+          "key": "D",
+          "text": "该GO term富集的基因越不显著"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_042",
+      "year": null,
+      "source": "Previous",
+      "prompt": "关于GO注释，以下哪项不是其主要作用",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "预测基因的表达水平"
+        },
+        {
+          "key": "B",
+          "text": "描述基因产物的功能"
+        },
+        {
+          "key": "C",
+          "text": "提供基因在细胞内的定位信息"
+        },
+        {
+          "key": "D",
+          "text": "阐释基因参与的生物学过程"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_043",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组信息学中，基因表达谱是指",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "基因在不同条件下的表达水平集合"
+        },
+        {
+          "key": "B",
+          "text": "基因的编码区域"
+        },
+        {
+          "key": "C",
+          "text": "基因的启动子区域"
+        },
+        {
+          "key": "D",
+          "text": "基因的DNA序列"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_044",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在GO富集分析中，为了更直观地展示富集结果的层次结构，可使用",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "散点图"
+        },
+        {
+          "key": "B",
+          "text": "折线图"
+        },
+        {
+          "key": "C",
+          "text": "饼图"
+        },
+        {
+          "key": "D",
+          "text": "有向无环图（Directed Acyclic Graph，DAG）"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_045",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组数据表达量计算中，FPKM值计算过程中，“Per Kilobase”是基于（ ）的长度",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "基因全长"
+        },
+        {
+          "key": "B",
+          "text": "转录本"
+        },
+        {
+          "key": "C",
+          "text": "基因内含子"
+        },
+        {
+          "key": "D",
+          "text": "基因外显子"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_046",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在聚类分析中，若数据存在高维特征，可先进行（ ）处理以降低维度",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "离散化"
+        },
+        {
+          "key": "B",
+          "text": "主成分分析（PCA）"
+        },
+        {
+          "key": "C",
+          "text": "标准化"
+        },
+        {
+          "key": "D",
+          "text": "归一化"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_047",
+      "year": null,
+      "source": "Previous",
+      "prompt": "对于单细胞转录组数据，常用的细胞分群方法是基于",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "细胞大小"
+        },
+        {
+          "key": "B",
+          "text": "细胞代谢活性"
+        },
+        {
+          "key": "C",
+          "text": "细胞形态学特征"
+        },
+        {
+          "key": "D",
+          "text": "基因表达谱的相似性"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_048",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪个数据库专门收录了多种物种的转录组数据及对应的基因表达谱信息",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "RefSeq"
+        },
+        {
+          "key": "B",
+          "text": "PDB"
+        },
+        {
+          "key": "C",
+          "text": "GEO"
+        },
+        {
+          "key": "D",
+          "text": "UniProt"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_049",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在单细胞转录组测序数据分析中，常用于降维可视化的技术是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "方差分析"
+        },
+        {
+          "key": "B",
+          "text": "卡方检验"
+        },
+        {
+          "key": "C",
+          "text": "PCA（主成分分析）和t-SNE（t分布随机邻域嵌入）"
+        },
+        {
+          "key": "D",
+          "text": "回归分析"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_050",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组数据的差异表达分析中，若某基因的差异倍数（FC）为2，但P值大于0.05，该基因",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "是显著差异表达基因"
+        },
+        {
+          "key": "B",
+          "text": "不是差异表达基因"
+        },
+        {
+          "key": "C",
+          "text": "可能由于样本量等原因导致差异不显著，需进一步验证"
+        },
+        {
+          "key": "D",
+          "text": "表达量无变化"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_051",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组芯片数据中，探针的作用是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "扩增RNA"
+        },
+        {
+          "key": "B",
+          "text": "标记样本"
+        },
+        {
+          "key": "C",
+          "text": "与目标RNA序列特异性结合，用于检测基因表达"
+        },
+        {
+          "key": "D",
+          "text": "分离RNA"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_052",
+      "year": null,
+      "source": "Previous",
+      "prompt": "对芯片数据的差异表达基因进行功能富集分析时，最常用的数据库是",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "GO（Gene Ontology）和KEGG（Kyoto Encyclopedia of Genes and Genomes）"
+        },
+        {
+          "key": "B",
+          "text": "PubMed和Web of Science"
+        },
+        {
+          "key": "C",
+          "text": "GenBank和EMBL"
+        },
+        {
+          "key": "D",
+          "text": "PDB和Swiss-Model"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_053",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下面哪些scRNA-seq技术测的是全长转录本",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Drop-seq"
+        },
+        {
+          "key": "B",
+          "text": "CEL-seq2"
+        },
+        {
+          "key": "C",
+          "text": "10X Chromium"
+        },
+        {
+          "key": "D",
+          "text": "Smart-seq2"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_054",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组数据的下游分析中，为了验证生物信息学分析结果的可靠性，最有效的方法是",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "重复实验"
+        },
+        {
+          "key": "B",
+          "text": "更换分析软件重新分析"
+        },
+        {
+          "key": "C",
+          "text": "进行实验验证（如 qRT-PCR、Western blot等）"
+        },
+        {
+          "key": "D",
+          "text": "扩大样本量再次分析"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_055",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在聚类分析中，若数据存在大量缺失值，可采用以下哪种处理方法",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "多重填补法"
+        },
+        {
+          "key": "B",
+          "text": "删除含有缺失值的样本或变量"
+        },
+        {
+          "key": "C",
+          "text": "均值 / 中位数填充"
+        },
+        {
+          "key": "D",
+          "text": "以上方法都可根据实际情况选择"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_056",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下对TPM（Transcripts per million fragments）的描述中哪个/些是错误的",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "不同样本基因TPM值总和相等"
+        },
+        {
+          "key": "B",
+          "text": "基因的TPM值越高，表达水平越高"
+        },
+        {
+          "key": "C",
+          "text": "对基因长度和测序深度进行了标准化"
+        },
+        {
+          "key": "D",
+          "text": "基于TPM值可以使用DESeq2方法进行差异表达基因分析"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_057",
+      "year": null,
+      "source": "Previous",
+      "prompt": "当分析芯片数据时，发现某个样本的信号值普遍偏低，可能的原因不包括",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "芯片杂交效率低"
+        },
+        {
+          "key": "B",
+          "text": "该样本中所有基因均低表达"
+        },
+        {
+          "key": "C",
+          "text": "扫描仪设置参数错误"
+        },
+        {
+          "key": "D",
+          "text": "样本RNA提取质量差"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_058",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在转录组芯片数据分析中，信号值的归一化是为了",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "减少数据量"
+        },
+        {
+          "key": "B",
+          "text": "增加信号强度"
+        },
+        {
+          "key": "C",
+          "text": "使不同样本间的信号具有可比性"
+        },
+        {
+          "key": "D",
+          "text": "去除噪声"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_059",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪种方法常用于对富集分析结果进行可视化展示",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "热图"
+        },
+        {
+          "key": "B",
+          "text": "气泡图"
+        },
+        {
+          "key": "C",
+          "text": "火山图"
+        },
+        {
+          "key": "D",
+          "text": "箱线图"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_060",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪项不属于 GO数据库中的本体论范畴",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "分子功能 （Molecular Function）"
+        },
+        {
+          "key": "B",
+          "text": "生物过程 （Biological Process）"
+        },
+        {
+          "key": "C",
+          "text": "代谢通路（Metabolic Pathway）"
+        },
+        {
+          "key": "D",
+          "text": "细胞组分（Cellular Component）"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_061",
+      "year": null,
+      "source": "Previous",
+      "prompt": "对于转录组数据的差异表达分析，若存在离群样本，可能会导致",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "差异表达基因的数量改变"
+        },
+        {
+          "key": "B",
+          "text": "假阳性结果增加"
+        },
+        {
+          "key": "C",
+          "text": "假阴性结果增加"
+        },
+        {
+          "key": "D",
+          "text": "以上情况都可能发生"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_062",
+      "year": null,
+      "source": "Previous",
+      "prompt": "下列有关TCGA数据库资源描述哪一个是正确的",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "只提供基因组测序及变异数据"
+        },
+        {
+          "key": "B",
+          "text": "研究数据来自体外永生化的肿瘤细胞株"
+        },
+        {
+          "key": "C",
+          "text": "只关注几种最常见的癌症表型"
+        },
+        {
+          "key": "D",
+          "text": "研究数据来自临床癌症患者"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_063",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在富集分析中，GO（Gene Ontology）数据库包含几个本体论范畴",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "1个"
+        },
+        {
+          "key": "B",
+          "text": "2个"
+        },
+        {
+          "key": "C",
+          "text": "3个"
+        },
+        {
+          "key": "D",
+          "text": "4个"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_064",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在差异表达分析中，通常使用以下哪种统计检验来判断基因是否差异表达",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "卡方检验"
+        },
+        {
+          "key": "B",
+          "text": "t检验"
+        },
+        {
+          "key": "C",
+          "text": "Fisher精确检验"
+        },
+        {
+          "key": "D",
+          "text": "以上都可能用到，具体取决于数据特点"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_065",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪个工具常用于对转录组差异表达基因进行功能富集分析",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "clusterProfiler"
+        },
+        {
+          "key": "B",
+          "text": "BLAST"
+        },
+        {
+          "key": "C",
+          "text": "ClustalW"
+        },
+        {
+          "key": "D",
+          "text": "MUSCLE"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_066",
+      "year": null,
+      "source": "Previous",
+      "prompt": "对于转录组数据的差异表达分析，若实验设计包含多个处理组和对照组，可采用（ ）进行分析",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "简单的两组比较"
+        },
+        {
+          "key": "B",
+          "text": "单因素方差分析模型"
+        },
+        {
+          "key": "C",
+          "text": "多因素方差分析模型"
+        },
+        {
+          "key": "D",
+          "text": "以上都不正确"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_067",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在生物分子网络中，边的权重可以表示以下哪些信息",
+      "type": "single_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "分子间结合的亲和力"
+        },
+        {
+          "key": "B",
+          "text": "实验证据的可靠性"
+        },
+        {
+          "key": "C",
+          "text": "相互作用的强度"
+        },
+        {
+          "key": "D",
+          "text": "以上都是"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_068",
+      "year": null,
+      "source": "Previous",
+      "prompt": "网络分析中的度（Degree）指的是",
+      "type": "single_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "网络的复杂程度"
+        },
+        {
+          "key": "B",
+          "text": "网络中边的权重"
+        },
+        {
+          "key": "C",
+          "text": "节点与其他节点之间连接的数量"
+        },
+        {
+          "key": "D",
+          "text": "节点的重要性"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_069",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在生物分子网络中，节点的聚类系数（Clustering coefficient）反映了",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "网络的整体连通性"
+        },
+        {
+          "key": "B",
+          "text": "节点邻居节点之间的连接紧密程度"
+        },
+        {
+          "key": "C",
+          "text": "节点所在网络模块的大小"
+        },
+        {
+          "key": "D",
+          "text": "节点在网络中的重要性"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_070",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在生物分子网络可视化中，Cytoscape软件的主要功能不包括",
+      "type": "single_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "节点和边的属性编辑"
+        },
+        {
+          "key": "B",
+          "text": "数据的高通量测序"
+        },
+        {
+          "key": "C",
+          "text": "网络布局调整"
+        },
+        {
+          "key": "D",
+          "text": "网络拓扑分析"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_071",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在生物分子网络中，节点通常代表什么",
+      "type": "single_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "分子间的相互作用"
+        },
+        {
+          "key": "B",
+          "text": "生物分子（如基因、蛋白质等）"
+        },
+        {
+          "key": "C",
+          "text": "代谢通路"
+        },
+        {
+          "key": "D",
+          "text": "生物过程"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_072",
+      "year": null,
+      "source": "Previous",
+      "prompt": "在生物分子网络中，介数中心性（Betweenness centrality）用于衡量节点的什么特性",
+      "type": "single_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "节点与其他节点的连接紧密程度"
+        },
+        {
+          "key": "B",
+          "text": "节点的邻居节点数量"
+        },
+        {
+          "key": "C",
+          "text": "节点在网络中作为“桥梁”的重要性"
+        },
+        {
+          "key": "D",
+          "text": "节点所在网络模块的大小"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_073",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下哪种网络类型描述的是蛋白质之间的直接物理相互作用",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "信号转导网络"
+        },
+        {
+          "key": "B",
+          "text": "代谢网络"
+        },
+        {
+          "key": "C",
+          "text": "蛋白质-蛋白质相互作用网络（PPI 网络）"
+        },
+        {
+          "key": "D",
+          "text": "基因调控网络"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_074",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下可以用来测定蛋白质三维结构方法是",
+      "type": "single_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "质谱"
+        },
+        {
+          "key": "B",
+          "text": "X-射线晶体衍射"
+        },
+        {
+          "key": "C",
+          "text": "免疫共沉淀"
+        },
+        {
+          "key": "D",
+          "text": "二维凝胶电泳"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "proteomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_075",
+      "year": null,
+      "source": "Previous",
+      "prompt": "预测蛋白质上的跨膜区，可使用以下哪种软件或方法",
+      "type": "single_choice",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "Chou-Fasman算法"
+        },
+        {
+          "key": "B",
+          "text": "GeneSplicer"
+        },
+        {
+          "key": "C",
+          "text": "GOR"
+        },
+        {
+          "key": "D",
+          "text": "TMpred"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "transcriptomics-core"
+      ],
+      "tags": [
+        "single_choice",
+        "transcriptomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_076",
+      "year": null,
+      "source": "Previous",
+      "prompt": "预测一个跨膜蛋白的拓扑结构，可使用以下哪种软件或方法",
+      "type": "single_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "ProtParam"
+        },
+        {
+          "key": "B",
+          "text": "TMpred"
+        },
+        {
+          "key": "C",
+          "text": "GeneSplicer"
+        },
+        {
+          "key": "D",
+          "text": "ProtScale"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "proteomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_077",
+      "year": null,
+      "source": "Previous",
+      "prompt": "预测蛋白质的等电点，可使用以下哪种软件或方法",
+      "type": "single_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "ProtParam"
+        },
+        {
+          "key": "B",
+          "text": "ProtScale"
+        },
+        {
+          "key": "C",
+          "text": "GeneSplicer"
+        },
+        {
+          "key": "D",
+          "text": "TMpred"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "proteomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_078",
+      "year": null,
+      "source": "Previous",
+      "prompt": "Proteomics的含义是",
+      "type": "single_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "生物信息学"
+        },
+        {
+          "key": "B",
+          "text": "蛋白质组学"
+        },
+        {
+          "key": "C",
+          "text": "表观遗传学"
+        },
+        {
+          "key": "D",
+          "text": "基因组学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_079",
+      "year": null,
+      "source": "Previous",
+      "prompt": "PDB是蛋白质的",
+      "type": "single_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "结构数据库"
+        },
+        {
+          "key": "B",
+          "text": "结构域数据库"
+        },
+        {
+          "key": "C",
+          "text": "序列数据库"
+        },
+        {
+          "key": "D",
+          "text": "分类数据库"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "proteomics",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_080",
+      "year": null,
+      "source": "Previous",
+      "prompt": "蛋白质组学研究的策略主要有",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "功能法"
+        },
+        {
+          "key": "B",
+          "text": "逐一法"
+        },
+        {
+          "key": "C",
+          "text": "竭泽法"
+        },
+        {
+          "key": "D",
+          "text": "全局法"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_081",
+      "year": null,
+      "source": "Previous",
+      "prompt": "蛋白质的高级结构具有如下（ ）特点",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "由一级结构決定"
+        },
+        {
+          "key": "B",
+          "text": "复杂性"
+        },
+        {
+          "key": "C",
+          "text": "作用对象多样性"
+        },
+        {
+          "key": "D",
+          "text": "半刚半柔性"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_082",
+      "year": null,
+      "source": "Previous",
+      "prompt": "蛋白质组学研究的范畴包括蛋白质的",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "性质"
+        },
+        {
+          "key": "B",
+          "text": "生物学功能"
+        },
+        {
+          "key": "C",
+          "text": "结构"
+        },
+        {
+          "key": "D",
+          "text": "相互关系"
+        },
+        {
+          "key": "E",
+          "text": "数量"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_083",
+      "year": null,
+      "source": "Previous",
+      "prompt": "预测蛋白质三维模型的方法主要有",
+      "type": "multiple_choice",
+      "topic": "genomics",
+      "topicName": "引言及基因组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "神经网络方法"
+        },
+        {
+          "key": "B",
+          "text": "“穿针引线”法"
+        },
+        {
+          "key": "C",
+          "text": "同源建模方法"
+        },
+        {
+          "key": "D",
+          "text": "从头预测方法"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "genomics-core"
+      ],
+      "tags": [
+        "genomics",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_084",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下属于蛋白质三维结构数据库的有",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "RCSB PDB"
+        },
+        {
+          "key": "B",
+          "text": "PDB-101"
+        },
+        {
+          "key": "C",
+          "text": "wwPDB"
+        },
+        {
+          "key": "D",
+          "text": "Swiss-Prot"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_085",
+      "year": null,
+      "source": "Previous",
+      "prompt": "蛋白质组学研究的难点有",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "结构多样性"
+        },
+        {
+          "key": "B",
+          "text": "时空特性"
+        },
+        {
+          "key": "C",
+          "text": "相互作用复杂"
+        },
+        {
+          "key": "D",
+          "text": "动态变化"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_086",
+      "year": null,
+      "source": "Previous",
+      "prompt": "Swiss-Prot数据库的数据存储信息包括",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "疾病信息"
+        },
+        {
+          "key": "B",
+          "text": "序列信息"
+        },
+        {
+          "key": "C",
+          "text": "翻译后修饰"
+        },
+        {
+          "key": "D",
+          "text": "三维结构"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_087",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下可以对生物大分子进行三维结构展示和画图的软件有",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "Pymol"
+        },
+        {
+          "key": "B",
+          "text": "RasMol"
+        },
+        {
+          "key": "C",
+          "text": "Chimera"
+        },
+        {
+          "key": "D",
+          "text": "VMD"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_088",
+      "year": null,
+      "source": "Previous",
+      "prompt": "QSAR方法是基于（）出发的药物设计方法",
+      "type": "single_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "配体"
+        },
+        {
+          "key": "B",
+          "text": "受体"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_089",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下最初来源于植物提取物或者在其基础上改良的药物有",
+      "type": "single_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "阿司匹林"
+        },
+        {
+          "key": "B",
+          "text": "胰岛素"
+        },
+        {
+          "key": "C",
+          "text": "阿莫西林"
+        },
+        {
+          "key": "D",
+          "text": "吗啡"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_090",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下不属于现代药物设计方法优点的是",
+      "type": "single_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "目标明确"
+        },
+        {
+          "key": "B",
+          "text": "成本低"
+        },
+        {
+          "key": "C",
+          "text": "过程可控"
+        },
+        {
+          "key": "D",
+          "text": "主观能动性优势"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_091",
+      "year": null,
+      "source": "Previous",
+      "prompt": "以下属于药物的有",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "云南白药喷雾剂"
+        },
+        {
+          "key": "B",
+          "text": "抗生素"
+        },
+        {
+          "key": "C",
+          "text": "疫苗"
+        },
+        {
+          "key": "D",
+          "text": "乙型肝炎表面抗原"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_092",
+      "year": null,
+      "source": "Previous",
+      "prompt": "药物开发过程中涉及的信息学技术主要有",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "生物信息学"
+        },
+        {
+          "key": "B",
+          "text": "电子信息学"
+        },
+        {
+          "key": "C",
+          "text": "医学信息学"
+        },
+        {
+          "key": "D",
+          "text": "化学信息学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_093",
+      "year": null,
+      "source": "Previous",
+      "prompt": "计算机辅助药物设计方法包括分为如下两类",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "间接药物设计"
+        },
+        {
+          "key": "B",
+          "text": "多重药物设计"
+        },
+        {
+          "key": "C",
+          "text": "从头药物设计"
+        },
+        {
+          "key": "D",
+          "text": "直接药物设计"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_094",
+      "year": null,
+      "source": "Previous",
+      "prompt": "随机/偶然发现药物的途径其优点是",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "过程可控"
+        },
+        {
+          "key": "B",
+          "text": "高概率"
+        },
+        {
+          "key": "C",
+          "text": "有效"
+        },
+        {
+          "key": "D",
+          "text": "直接"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_095",
+      "year": null,
+      "source": "Previous",
+      "prompt": "临床前研究阶段的主要目标是获取药物在动物身上的",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "毒性测试"
+        },
+        {
+          "key": "B",
+          "text": "ADME参数"
+        },
+        {
+          "key": "C",
+          "text": "有效性评估"
+        },
+        {
+          "key": "D",
+          "text": "副作用评估"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_096",
+      "year": null,
+      "source": "Previous",
+      "prompt": "现代药物研究的技术支柱主要有",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "分子生物学"
+        },
+        {
+          "key": "B",
+          "text": "与药物研究相关的信息学技术"
+        },
+        {
+          "key": "C",
+          "text": "高通量筛选"
+        },
+        {
+          "key": "D",
+          "text": "组学技术"
+        },
+        {
+          "key": "E",
+          "text": "组合化学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_097",
+      "year": null,
+      "source": "Previous",
+      "prompt": "医药产业在国民经济中的重要地位体现在它具有重要的",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "社会效益"
+        },
+        {
+          "key": "B",
+          "text": "经济效益"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_098",
+      "year": null,
+      "source": "Previous",
+      "prompt": "新药发现领域，我国的的优势方向是",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "中药成分配伍研究"
+        },
+        {
+          "key": "B",
+          "text": "化学结构优化"
+        },
+        {
+          "key": "C",
+          "text": "药物靶点研究"
+        },
+        {
+          "key": "D",
+          "text": "天然产物研究"
+        },
+        {
+          "key": "E",
+          "text": "新药设计"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_099",
+      "year": null,
+      "source": "Previous",
+      "prompt": "基于系统的药物设计主要有以下途径",
+      "type": "multiple_choice",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "多向药理学"
+        },
+        {
+          "key": "B",
+          "text": "系统药理学"
+        },
+        {
+          "key": "C",
+          "text": "综合药理学"
+        },
+        {
+          "key": "D",
+          "text": "网络药理学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "biomolecular-network-core"
+      ],
+      "tags": [
+        "biomolecular-network",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_100",
+      "year": null,
+      "source": "Previous",
+      "prompt": "现代药物研究关联的学科和领域有",
+      "type": "multiple_choice",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "分子生物学"
+        },
+        {
+          "key": "B",
+          "text": "基因和蛋白组学"
+        },
+        {
+          "key": "C",
+          "text": "生物信息学"
+        },
+        {
+          "key": "D",
+          "text": "组合化学"
+        },
+        {
+          "key": "E",
+          "text": "化学信息学"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "proteomics-core"
+      ],
+      "tags": [
+        "multiple_choice",
+        "proteomics"
+      ],
+      "origin": "previous-curated"
+    }
+  ]
+}

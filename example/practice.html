@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioIntro 题库练习</title>
+  <meta name="description" content="Practice page for BioIntro. Browse, answer, quiz, and generate questions.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="page-nav">
+      <a class="nav-brand" href="./"><span>BioIntro</span></a>
+      <div class="nav-links">
+        <a href="./">首页</a>
+        <a href="./practice.html" aria-current="page">答题页</a>
+        <a href="./reader.html">Reader</a>
+        <a href="https://github.com/Starry-49/BioIntro" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-home-copy">
+          <div class="hero-eyebrow"><span>Practice Workspace</span></div>
+          <h1>BioIntro 题库练习与生成</h1>
+          <p class="hero-copy">在这里完成题库筛选、在线作答、抽题测试，以及基于知识模块扩展新题。</p>
+          <div class="hero-actions">
+            <button class="button button-primary" id="startQuizButton">开始测试</button>
+            <button class="button button-secondary" id="generateButton">生成示例新题</button>
+          </div>
+        </div>
+        <div class="hero-home-aside hero-kpi-grid">
+          <article class="hero-kpi"><span class="label">Answer</span><span class="value">Local</span><h3>浏览器内答题</h3><p class="panel-subtitle">每道题都可以直接作答和查看解析。</p></article>
+          <article class="hero-kpi"><span class="label">Quiz</span><span class="value">Random</span><h3>抽题连续练习</h3><p class="panel-subtitle">从筛选结果抽取指定数量题目测试。</p></article>
+          <article class="hero-kpi"><span class="label">Generate</span><span class="value">KB</span><h3>知识模块扩题</h3><p class="panel-subtitle">把知识库事实转成新题并导出。</p></article>
+        </div>
+      </div>
+      <div class="stats-grid stats-grid-wide">
+        <div class="stat-tile"><span class="value" id="statQuestionCount">--</span><span class="label">题库总量</span></div>
+        <div class="stat-tile"><span class="value" id="statKnowledgeCount">--</span><span class="label">知识条目</span></div>
+        <div class="stat-tile"><span class="value" id="statGeneratedCount">--</span><span class="label">生成题</span></div>
+        <div class="stat-tile"><span class="value" id="statFilteredCount">--</span><span class="label">当前筛选</span></div>
+        <div class="stat-tile"><span class="value" id="statAnsweredCount">--</span><span class="label">已作答</span></div>
+        <div class="stat-tile"><span class="value" id="statCorrectCount">--</span><span class="label">答对数</span></div>
+      </div>
+    </section>
+
+    <section class="section-panel workspace-guide">
+      <div class="section-title"><div><h2>工作区</h2><p class="panel-subtitle">按任务切换当前面板。</p></div></div>
+      <div class="guide-strip">
+        <button class="button button-secondary workspace-switch active" data-tab-target="filters" data-scroll-target="workspaceTop">1. 筛题</button>
+        <button class="button button-secondary workspace-switch" data-tab-target="quiz" data-scroll-target="workspaceTop">2. 测验</button>
+        <button class="button button-secondary workspace-switch" data-tab-target="generator" data-scroll-target="workspaceTop">3. 生成</button>
+        <button class="button button-tertiary workspace-jump" data-scroll-target="knowledgeSection">知识模块</button>
+        <button class="button button-tertiary workspace-jump" data-scroll-target="bankSection">题库结果</button>
+      </div>
+    </section>
+
+    <section class="workspace-shell">
+      <aside class="workspace-sidebar" id="workspaceTop">
+        <article class="panel tabbed-panel" data-tab-panel="filters" id="filterPanel">
+          <div class="panel-title"><div><h2>筛选器</h2><p class="panel-subtitle">按来源、主题、题型和关键词定位题目。</p></div></div>
+          <div class="field"><label for="searchInput">关键词</label><input id="searchInput" class="text-input" type="text" placeholder="例如：RNA-seq、BLAST、蛋白质"></div>
+          <div class="field"><label>来源</label><div id="sourceFilterList" class="chip-group"></div></div>
+          <div class="field"><label for="topicSelect">主题</label><select id="topicSelect" class="select-input"></select></div>
+          <div class="field"><label for="typeSelect">题型</label><select id="typeSelect" class="select-input"></select></div>
+        </article>
+
+        <article class="panel tabbed-panel hidden" data-tab-panel="quiz" id="quizPanel">
+          <div class="panel-title"><div><h2>抽题测试</h2><p class="panel-subtitle">从筛选结果中抽题。</p></div></div>
+          <div class="field"><label for="quizCount">抽题数量</label><input id="quizCount" class="number-input" type="number" min="1" max="30" value="10"></div>
+          <div class="panel-actions">
+            <button class="button button-secondary" id="randomBrowseButton">随机浏览</button>
+            <button class="button button-primary" id="startQuizButtonAside">开始测验</button>
+          </div>
+        </article>
+
+        <article class="panel tabbed-panel hidden" data-tab-panel="generator" id="generatorPanel">
+          <div class="panel-title"><div><h2>知识驱动生成</h2><p class="panel-subtitle">从知识模块出题。</p></div></div>
+          <div class="field"><label for="generatorModule">知识模块</label><select id="generatorModule" class="select-input"></select></div>
+          <div class="field"><label for="generatorCount">生成数量</label><input id="generatorCount" class="number-input" type="number" min="1" max="12" value="4"></div>
+          <div class="panel-actions">
+            <button class="button button-primary" id="generateButtonAside">生成并加入</button>
+            <button class="button button-secondary" id="exportButton">导出新题</button>
+            <button class="button button-secondary" id="clearGeneratedButton">清空生成题</button>
+            <button class="button button-tertiary" id="clearAnswerButton">清空答题记录</button>
+          </div>
+        </article>
+      </aside>
+
+      <section class="workspace-main">
+        <section class="section-panel" id="knowledgeSection">
+          <div class="section-title"><div><h2>知识模块</h2><p class="panel-subtitle">当前模块：<strong id="activeModuleLabel">全部知识模块</strong></p></div></div>
+          <div id="knowledgeList" class="knowledge-list knowledge-list-wide"></div>
+        </section>
+        <section class="quiz-shell hidden" id="quizShell"></section>
+        <section class="section-panel" id="bankSection">
+          <div class="section-title section-title-stack">
+            <div><h2 id="resultHeadline">题库浏览</h2><p class="panel-subtitle">旧题与本地生成题统一呈现。</p></div>
+            <div class="badge-row"><span class="tag tag-brand">Answerable</span><span class="tag tag-accent">Generated</span></div>
+          </div>
+          <div id="questionList" class="question-list"></div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script src="assets/synquest-browser.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    document.getElementById("startQuizButtonAside").addEventListener("click", () => document.getElementById("startQuizButton").click());
+    document.getElementById("generateButtonAside").addEventListener("click", () => document.getElementById("generateButton").click());
+    const activateWorkspaceTab = (tabName) => {
+      document.querySelectorAll(".workspace-switch").forEach(b => b.classList.toggle("active", b.dataset.tabTarget === tabName));
+      document.querySelectorAll(".tabbed-panel").forEach(p => p.classList.toggle("hidden", p.dataset.tabPanel !== tabName));
+    };
+    document.querySelectorAll(".workspace-switch").forEach(b => b.addEventListener("click", () => {
+      activateWorkspaceTab(b.dataset.tabTarget);
+      const t = document.getElementById(b.dataset.scrollTarget);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    document.querySelectorAll(".workspace-jump").forEach(b => b.addEventListener("click", () => {
+      const t = document.getElementById(b.dataset.scrollTarget);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  </script>
+</body>
+</html>
