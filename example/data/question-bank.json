@@ -2,8 +2,8 @@
   "meta": {
     "title": "BioIntro Question Bank",
     "subtitle": "Structured archive from bioinformatics introduction course",
-    "generatedAt": "2026-04-07T11:15:36+00:00",
-    "totalQuestions": 120,
+    "generatedAt": "2026-04-09T00:14:00+00:00",
+    "totalQuestions": 121,
     "sources": [
       "Previous",
       "SynQuest"
@@ -12,32 +12,32 @@
       {
         "id": "biomolecular-network",
         "name": "生物分子网络",
-        "count": 8
+        "count": 9
       },
       {
         "id": "cadd",
         "name": "计算机辅助药物发现",
-        "count": 14
+        "count": 17
       },
       {
         "id": "genomics",
         "name": "引言及基因组信息学",
-        "count": 43
+        "count": 35
       },
       {
         "id": "proteomics",
         "name": "蛋白组信息学",
-        "count": 15
+        "count": 17
       },
       {
         "id": "transcriptomics",
         "name": "转录组信息学",
-        "count": 40
+        "count": 43
       }
     ],
     "types": {
       "multiple_choice": 33,
-      "single_choice": 87
+      "single_choice": 88
     },
     "imageQuestionCount": 0,
     "noteImageCount": 0
@@ -70,7 +70,7 @@
           "text": "序列分析"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -117,8 +117,8 @@
           "text": "3000亿对碱基"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "基因组、基因组规模——30亿人类基因组计划经费——30亿",
       "images": {
         "question": "",
         "note": ""
@@ -160,7 +160,7 @@
           "text": "33亿对碱基"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -199,7 +199,7 @@
           "text": "30亿美元"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -242,7 +242,7 @@
           "text": "BGI"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -285,7 +285,7 @@
           "text": "Y"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -328,8 +328,8 @@
           "text": "Pedatur Cancer Genome Project (PCGP)"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "C选项CGP，提供COSMIC数据库A选项千人基因组计划，提供IGSRPCGP儿童癌症基因组计划TCGA人类癌症基因组ICGC整合了如上基因组",
       "images": {
         "question": "",
         "note": ""
@@ -371,7 +371,7 @@
           "text": "The Cancer Genome Project (CGP)"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -414,8 +414,8 @@
           "text": "ENCODE"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "A：癌症基因组图谱B：国际人类基因组单体型图计划C：癌症基因组计划",
       "images": {
         "question": "",
         "note": ""
@@ -457,7 +457,7 @@
           "text": "Genome"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -500,8 +500,8 @@
           "text": "Genome"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "考试题改成了基因相关信息",
       "images": {
         "question": "",
         "note": ""
@@ -543,8 +543,8 @@
           "text": "full"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "hide：隐藏dense：压缩成一条squish：压缩一半高度pack：压缩部分信息高度full：完全显示",
       "images": {
         "question": "",
         "note": ""
@@ -582,7 +582,7 @@
           "text": "Genbank是一个综合型数据库，包含了数十种不同的子数据库"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -625,7 +625,7 @@
           "text": "可利用基因表达数据反向推断基因调控网络"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -672,7 +672,7 @@
           "text": "表观组学"
         }
       ],
-      "answer": "",
+      "answer": "ABCDE",
       "analysis": "",
       "images": {
         "question": "",
@@ -715,8 +715,8 @@
           "text": "apoptosis[tiab]"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABD",
+      "analysis": "A可能不对，PPT没讲但是我尝试过是没有问题的",
       "images": {
         "question": "",
         "note": ""
@@ -758,7 +758,7 @@
           "text": "叶绿体基因组"
         }
       ],
-      "answer": "",
+      "answer": "ABCD",
       "analysis": "",
       "images": {
         "question": "",
@@ -801,8 +801,8 @@
           "text": "PubMed"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABC",
+      "analysis": "生物信息学三大（核酸）数据库GenBank——EntrezEMBL——EBI searchDDBJ search / ARSA",
       "images": {
         "question": "",
         "note": ""
@@ -844,8 +844,8 @@
           "text": "收录了真细菌（Bacteria） 基因组数据"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "在基础实践第一次作业中可以注意到这些都是存在的（在Genome数据库中）",
       "images": {
         "question": "",
         "note": ""
@@ -887,8 +887,8 @@
           "text": "genomics[ti] cancer[ti]"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "AD",
+      "analysis": "PubMed会忽略大小写，但这里还是选大写的D会默认填充AND",
       "images": {
         "question": "",
         "note": ""
@@ -930,8 +930,8 @@
           "text": "与序列A的一致性高于序列B，则与A的整体相似性肯定高于B"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABC",
+      "analysis": "BLAST指标看PPT总结",
       "images": {
         "question": "",
         "note": ""
@@ -973,7 +973,7 @@
           "text": "搜索工具能够检索基因名称"
         }
       ],
-      "answer": "",
+      "answer": "BD",
       "analysis": "",
       "images": {
         "question": "",
@@ -1016,8 +1016,8 @@
           "text": "cell[TA] cancer[title]"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "期刊检索式：Journal[TA]标题检索式：title[ti]，可以是ti,TI,title,TITLE",
       "images": {
         "question": "",
         "note": ""
@@ -1059,8 +1059,8 @@
           "text": "可以查看基因变异数据"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "操作方法：https://www.nlm.nih.gov/ncbi/workshops/2022-07_Intro-to-Cloud/exercise-3.html",
       "images": {
         "question": "",
         "note": ""
@@ -1102,8 +1102,8 @@
           "text": "遗传表型数据"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "PPT总结",
       "images": {
         "question": "",
         "note": ""
@@ -1145,7 +1145,7 @@
           "text": "插入或缺失突变会导致序列比对时引入空位"
         }
       ],
-      "answer": "",
+      "answer": "ABCD",
       "analysis": "",
       "images": {
         "question": "",
@@ -1188,8 +1188,8 @@
           "text": "人类基因组包括24条染色体基因"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ACD",
+      "analysis": "见总结PPT",
       "images": {
         "question": "",
         "note": ""
@@ -1231,8 +1231,8 @@
           "text": "支持任意关键词检索"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABC",
+      "analysis": "人类基因与遗传表型数据库OMIM检索内容并非完全自由，只限于基因名称、疾病名称、OMIM编号、临床症状等",
       "images": {
         "question": "",
         "note": ""
@@ -1274,8 +1274,8 @@
           "text": "BLOCKS"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "AB",
+      "analysis": "A：高度相似序列比对B：远缘序列比对C：序列比对算法D：蛋白质保守序列数据库",
       "images": {
         "question": "",
         "note": ""
@@ -1317,7 +1317,7 @@
           "text": "定量时无需考虑测序文库的类型"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1360,7 +1360,7 @@
           "text": "图像数据"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1403,7 +1403,7 @@
           "text": "指数分布"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -1425,8 +1425,8 @@
       "source": "Previous",
       "prompt": "若要对转录组差异表达基因进行功能富集分析，除了GO和KEGG数据库，还可使用",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -1446,7 +1446,7 @@
           "text": "PubMed数据库"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -1454,11 +1454,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "transcriptomics-core"
       ],
       "tags": [
-        "genomics",
-        "single_choice"
+        "single_choice",
+        "transcriptomics"
       ],
       "origin": "previous-curated"
     },
@@ -1468,8 +1468,8 @@
       "source": "Previous",
       "prompt": "在转录组测序数据分析中，以下哪个步骤用于将测序reads比对到参考基因组上",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -1489,19 +1489,19 @@
           "text": "序列比对"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "这种题可以多出！！",
       "images": {
         "question": "",
         "note": ""
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "transcriptomics-core"
       ],
       "tags": [
-        "genomics",
-        "single_choice"
+        "single_choice",
+        "transcriptomics"
       ],
       "origin": "previous-curated"
     },
@@ -1532,7 +1532,7 @@
           "text": "数据整合仅针对转录组数据"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1575,7 +1575,7 @@
           "text": "KEGG可以用于分析代谢通路"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1618,8 +1618,8 @@
           "text": "一段DNA序列"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "探针集对应一个基因一个探针对应一小段序列（20-25bp碱基）",
       "images": {
         "question": "",
         "note": ""
@@ -1661,8 +1661,8 @@
           "text": "MARS-seq"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "A",
+      "analysis": "测序通量（Sequencing Throughput）​​是指​​单次测序运行中能够产生的数据总量或处理的样本数量​​，是衡量测序技术效率的核心指标。测序深度是指特定基因组区域被测序reads覆盖的平均次数。",
       "images": {
         "question": "",
         "note": ""
@@ -1704,7 +1704,7 @@
           "text": "基因的功能注释"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -1747,7 +1747,7 @@
           "text": "RNA-seq"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -1790,7 +1790,7 @@
           "text": "该GO term富集的基因越不显著"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1833,8 +1833,8 @@
           "text": "阐释基因参与的生物学过程"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "A",
+      "analysis": "MF，BP，CC",
       "images": {
         "question": "",
         "note": ""
@@ -1876,8 +1876,8 @@
           "text": "基因的DNA序列"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "A",
+      "analysis": "基因表达谱：通过高通量技术（如RNA-seq、微阵列）定量测定特定组织、细胞或处理条件下​​所有基因的表达水平（如FPKM、TPM值）。",
       "images": {
         "question": "",
         "note": ""
@@ -1919,7 +1919,7 @@
           "text": "有向无环图（Directed Acyclic Graph，DAG）"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -1939,7 +1939,7 @@
       "id": "prev_045",
       "year": null,
       "source": "Previous",
-      "prompt": "在转录组数据表达量计算中，FPKM值计算过程中，“Per Kilobase”是基于（ ）的长度",
+      "prompt": "在转录组数据表达量计算中，FPKM值计算过程中，“Per Kilobase”是基于（   ）的长度",
       "type": "single_choice",
       "topic": "transcriptomics",
       "topicName": "转录组信息学",
@@ -1962,7 +1962,7 @@
           "text": "基因外显子"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -1982,7 +1982,7 @@
       "id": "prev_046",
       "year": null,
       "source": "Previous",
-      "prompt": "在聚类分析中，若数据存在高维特征，可先进行（ ）处理以降低维度",
+      "prompt": "在聚类分析中，若数据存在高维特征，可先进行（   ）处理以降低维度",
       "type": "single_choice",
       "topic": "transcriptomics",
       "topicName": "转录组信息学",
@@ -2005,8 +2005,8 @@
           "text": "归一化"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "B",
+      "analysis": "见PPT总结PCA，NMF",
       "images": {
         "question": "",
         "note": ""
@@ -2048,8 +2048,8 @@
           "text": "基因表达谱的相似性"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "PPT里面完全没有提到只有细胞类型注释",
       "images": {
         "question": "",
         "note": ""
@@ -2091,8 +2091,8 @@
           "text": "UniProt"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "A：主要提供​​参考序列​​（如基因组、mRNA、蛋白质序列），而非基因表达谱数据",
       "images": {
         "question": "",
         "note": ""
@@ -2134,7 +2134,7 @@
           "text": "回归分析"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2177,8 +2177,8 @@
           "text": "表达量无变化"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "无统计学特征显著性",
       "images": {
         "question": "",
         "note": ""
@@ -2220,7 +2220,7 @@
           "text": "分离RNA"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2242,8 +2242,8 @@
       "source": "Previous",
       "prompt": "对芯片数据的差异表达基因进行功能富集分析时，最常用的数据库是",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -2263,7 +2263,7 @@
           "text": "PDB和Swiss-Model"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -2271,11 +2271,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "transcriptomics-core"
       ],
       "tags": [
-        "genomics",
-        "single_choice"
+        "single_choice",
+        "transcriptomics"
       ],
       "origin": "previous-curated"
     },
@@ -2306,7 +2306,7 @@
           "text": "Smart-seq2"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -2349,7 +2349,7 @@
           "text": "扩大样本量再次分析"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2392,8 +2392,8 @@
           "text": "以上方法都可根据实际情况选择"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "A：通过统计模型（如MICE）生成多个可能的填充值，保留不确定性。",
       "images": {
         "question": "",
         "note": ""
@@ -2435,8 +2435,8 @@
           "text": "基于TPM值可以使用DESeq2方法进行差异表达基因分析"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "D：DESeq2设计用于原始counts数据​​（未标准化的reads计数），因其基于负二项分布模型，需考虑测序深度和离散度。",
       "images": {
         "question": "",
         "note": ""
@@ -2478,7 +2478,7 @@
           "text": "样本RNA提取质量差"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -2521,7 +2521,7 @@
           "text": "去除噪声"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2564,7 +2564,7 @@
           "text": "箱线图"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -2607,7 +2607,7 @@
           "text": "细胞组分（Cellular Component）"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2650,7 +2650,7 @@
           "text": "以上情况都可能发生"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -2672,8 +2672,8 @@
       "source": "Previous",
       "prompt": "下列有关TCGA数据库资源描述哪一个是正确的",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -2693,7 +2693,7 @@
           "text": "研究数据来自临床癌症患者"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -2701,11 +2701,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "transcriptomics-core"
       ],
       "tags": [
-        "genomics",
-        "single_choice"
+        "single_choice",
+        "transcriptomics"
       ],
       "origin": "previous-curated"
     },
@@ -2736,7 +2736,7 @@
           "text": "4个"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2779,7 +2779,7 @@
           "text": "以上都可能用到，具体取决于数据特点"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -2801,8 +2801,8 @@
       "source": "Previous",
       "prompt": "以下哪个工具常用于对转录组差异表达基因进行功能富集分析",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "transcriptomics",
+      "topicName": "转录组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -2822,7 +2822,7 @@
           "text": "MUSCLE"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -2830,11 +2830,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "transcriptomics-core"
       ],
       "tags": [
-        "genomics",
-        "single_choice"
+        "single_choice",
+        "transcriptomics"
       ],
       "origin": "previous-curated"
     },
@@ -2842,7 +2842,7 @@
       "id": "prev_066",
       "year": null,
       "source": "Previous",
-      "prompt": "对于转录组数据的差异表达分析，若实验设计包含多个处理组和对照组，可采用（ ）进行分析",
+      "prompt": "对于转录组数据的差异表达分析，若实验设计包含多个处理组和对照组，可采用（   ）进行分析",
       "type": "single_choice",
       "topic": "transcriptomics",
       "topicName": "转录组信息学",
@@ -2865,8 +2865,8 @@
           "text": "以上都不正确"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "B",
+      "analysis": "简单的两组比较（如t检验）需多次两两对比（如A vs 对照、B vs 对照、A vs B），会导致多重假设检验问题​​（假阳性增加）。",
       "images": {
         "question": "",
         "note": ""
@@ -2908,8 +2908,8 @@
           "text": "以上都是"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "在Cytoscape中，边的权重可通过线条粗细、颜色渐变直观显示。",
       "images": {
         "question": "",
         "note": ""
@@ -2951,7 +2951,7 @@
           "text": "节点的重要性"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -2973,8 +2973,8 @@
       "source": "Previous",
       "prompt": "在生物分子网络中，节点的聚类系数（Clustering coefficient）反映了",
       "type": "single_choice",
-      "topic": "transcriptomics",
-      "topicName": "转录组信息学",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
       "difficulty": 2,
       "options": [
         {
@@ -2994,7 +2994,7 @@
           "text": "节点在网络中的重要性"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -3002,11 +3002,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "transcriptomics-core"
+        "biomolecular-network-core"
       ],
       "tags": [
-        "single_choice",
-        "transcriptomics"
+        "biomolecular-network",
+        "single_choice"
       ],
       "origin": "previous-curated"
     },
@@ -3037,7 +3037,7 @@
           "text": "网络拓扑分析"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -3080,7 +3080,7 @@
           "text": "生物过程"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -3123,8 +3123,8 @@
           "text": "节点所在网络模块的大小"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "C",
+      "analysis": "A：紧密度B：度D：似乎没有具体指标来衡量直径，描述网络的紧密程度",
       "images": {
         "question": "",
         "note": ""
@@ -3145,8 +3145,8 @@
       "source": "Previous",
       "prompt": "以下哪种网络类型描述的是蛋白质之间的直接物理相互作用",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "biomolecular-network",
+      "topicName": "生物分子网络",
       "difficulty": 2,
       "options": [
         {
@@ -3166,7 +3166,7 @@
           "text": "基因调控网络"
         }
       ],
-      "answer": "",
+      "answer": "C",
       "analysis": "",
       "images": {
         "question": "",
@@ -3174,10 +3174,10 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "biomolecular-network-core"
       ],
       "tags": [
-        "genomics",
+        "biomolecular-network",
         "single_choice"
       ],
       "origin": "previous-curated"
@@ -3209,8 +3209,8 @@
           "text": "二维凝胶电泳"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "B",
+      "analysis": "质谱测分子量核磁共振（NMR）、冷冻电镜测结构考试题换了选项，多了冷冻电镜",
       "images": {
         "question": "",
         "note": ""
@@ -3231,8 +3231,8 @@
       "source": "Previous",
       "prompt": "预测蛋白质上的跨膜区，可使用以下哪种软件或方法",
       "type": "single_choice",
-      "topic": "transcriptomics",
-      "topicName": "转录组信息学",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -3252,19 +3252,19 @@
           "text": "TMpred"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "D",
+      "analysis": "跨膜——TMpred",
       "images": {
         "question": "",
         "note": ""
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "transcriptomics-core"
+        "proteomics-core"
       ],
       "tags": [
-        "single_choice",
-        "transcriptomics"
+        "proteomics",
+        "single_choice"
       ],
       "origin": "previous-curated"
     },
@@ -3295,8 +3295,8 @@
           "text": "ProtScale"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "B",
+      "analysis": "跨膜——TMpred",
       "images": {
         "question": "",
         "note": ""
@@ -3338,8 +3338,8 @@
           "text": "TMpred"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "A",
+      "analysis": "A：理化性质，包含等电点、消光系数、不稳定系数、脂肪系数、总平均疏水性（GRAVY）B：亲水性、疏水性",
       "images": {
         "question": "",
         "note": ""
@@ -3360,8 +3360,8 @@
       "source": "Previous",
       "prompt": "Proteomics的含义是",
       "type": "single_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
       "difficulty": 2,
       "options": [
         {
@@ -3381,18 +3381,18 @@
           "text": "基因组学"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "B",
+      "analysis": "这种题可以多出！！",
       "images": {
         "question": "",
         "note": ""
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "proteomics-core"
       ],
       "tags": [
-        "genomics",
+        "proteomics",
         "single_choice"
       ],
       "origin": "previous-curated"
@@ -3424,7 +3424,7 @@
           "text": "分类数据库"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -3467,7 +3467,7 @@
           "text": "全局法"
         }
       ],
-      "answer": "",
+      "answer": "AC",
       "analysis": "",
       "images": {
         "question": "",
@@ -3487,7 +3487,7 @@
       "id": "prev_081",
       "year": null,
       "source": "Previous",
-      "prompt": "蛋白质的高级结构具有如下（ ）特点",
+      "prompt": "蛋白质的高级结构具有如下（   ）特点",
       "type": "multiple_choice",
       "topic": "proteomics",
       "topicName": "蛋白组信息学",
@@ -3510,7 +3510,7 @@
           "text": "半刚半柔性"
         }
       ],
-      "answer": "",
+      "answer": "ABCD",
       "analysis": "",
       "images": {
         "question": "",
@@ -3557,7 +3557,7 @@
           "text": "数量"
         }
       ],
-      "answer": "",
+      "answer": "ABCDE",
       "analysis": "",
       "images": {
         "question": "",
@@ -3579,8 +3579,8 @@
       "source": "Previous",
       "prompt": "预测蛋白质三维模型的方法主要有",
       "type": "multiple_choice",
-      "topic": "genomics",
-      "topicName": "引言及基因组信息学",
+      "topic": "proteomics",
+      "topicName": "蛋白组信息学",
       "difficulty": 3,
       "options": [
         {
@@ -3600,19 +3600,19 @@
           "text": "从头预测方法"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "全部都是A可以体现在深度学习、机器学习如AlphaFold",
       "images": {
         "question": "",
         "note": ""
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "genomics-core"
+        "proteomics-core"
       ],
       "tags": [
-        "genomics",
-        "multiple_choice"
+        "multiple_choice",
+        "proteomics"
       ],
       "origin": "previous-curated"
     },
@@ -3643,8 +3643,8 @@
           "text": "Swiss-Prot"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABC",
+      "analysis": "B：PDB下属教育平台，但肖飞也算D：专注蛋白质序列和功能注释那么含有“PDB”就可以算是结构数据库",
       "images": {
         "question": "",
         "note": ""
@@ -3686,8 +3686,8 @@
           "text": "动态变化"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABCD",
+      "analysis": "研究难点：同一性、多样性有限、无限静态、动态时间、空间孤立行为、相互作用",
       "images": {
         "question": "",
         "note": ""
@@ -3729,7 +3729,7 @@
           "text": "三维结构"
         }
       ],
-      "answer": "",
+      "answer": "ABC",
       "analysis": "",
       "images": {
         "question": "",
@@ -3772,7 +3772,7 @@
           "text": "VMD"
         }
       ],
-      "answer": "",
+      "answer": "ABCD",
       "analysis": "",
       "images": {
         "question": "",
@@ -3807,7 +3807,7 @@
           "text": "受体"
         }
       ],
-      "answer": "",
+      "answer": "A",
       "analysis": "",
       "images": {
         "question": "",
@@ -3850,7 +3850,7 @@
           "text": "吗啡"
         }
       ],
-      "answer": "",
+      "answer": "D",
       "analysis": "",
       "images": {
         "question": "",
@@ -3893,7 +3893,7 @@
           "text": "主观能动性优势"
         }
       ],
-      "answer": "",
+      "answer": "B",
       "analysis": "",
       "images": {
         "question": "",
@@ -3911,6 +3911,49 @@
     },
     {
       "id": "prev_091",
+      "year": null,
+      "source": "Previous",
+      "prompt": "如图所示，小分子a依次经过酶A、B、C、D的催化反应，分别生成c和f两种产物。现有f分子表达异常引起的疾病，为治疗该疾病设计药物分子，请问最佳的靶标是",
+      "type": "single_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 2,
+      "options": [
+        {
+          "key": "A",
+          "text": "酶A"
+        },
+        {
+          "key": "B",
+          "text": "酶B"
+        },
+        {
+          "key": "C",
+          "text": "酶C"
+        },
+        {
+          "key": "D",
+          "text": "酶D"
+        }
+      ],
+      "answer": "D",
+      "analysis": "最直接！",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "single_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_092",
       "year": null,
       "source": "Previous",
       "prompt": "以下属于药物的有",
@@ -3936,8 +3979,8 @@
           "text": "乙型肝炎表面抗原"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABC",
+      "analysis": "预防、治疗、诊断疾病的各种物质！！（预防——疫苗）",
       "images": {
         "question": "",
         "note": ""
@@ -3953,7 +3996,7 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_092",
+      "id": "prev_093",
       "year": null,
       "source": "Previous",
       "prompt": "药物开发过程中涉及的信息学技术主要有",
@@ -3979,7 +4022,7 @@
           "text": "化学信息学"
         }
       ],
-      "answer": "",
+      "answer": "ACD",
       "analysis": "",
       "images": {
         "question": "",
@@ -3996,7 +4039,7 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_093",
+      "id": "prev_094",
       "year": null,
       "source": "Previous",
       "prompt": "计算机辅助药物设计方法包括分为如下两类",
@@ -4022,7 +4065,7 @@
           "text": "直接药物设计"
         }
       ],
-      "answer": "",
+      "answer": "AD",
       "analysis": "",
       "images": {
         "question": "",
@@ -4039,7 +4082,7 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_094",
+      "id": "prev_095",
       "year": null,
       "source": "Previous",
       "prompt": "随机/偶然发现药物的途径其优点是",
@@ -4065,7 +4108,7 @@
           "text": "直接"
         }
       ],
-      "answer": "",
+      "answer": "CD",
       "analysis": "",
       "images": {
         "question": "",
@@ -4082,7 +4125,7 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_095",
+      "id": "prev_096",
       "year": null,
       "source": "Previous",
       "prompt": "临床前研究阶段的主要目标是获取药物在动物身上的",
@@ -4108,7 +4151,7 @@
           "text": "副作用评估"
         }
       ],
-      "answer": "",
+      "answer": "ABCD",
       "analysis": "",
       "images": {
         "question": "",
@@ -4125,7 +4168,7 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_096",
+      "id": "prev_097",
       "year": null,
       "source": "Previous",
       "prompt": "现代药物研究的技术支柱主要有",
@@ -4155,42 +4198,7 @@
           "text": "组合化学"
         }
       ],
-      "answer": "",
-      "analysis": "",
-      "images": {
-        "question": "",
-        "note": ""
-      },
-      "pdfPage": null,
-      "knowledgeRefs": [
-        "cadd-core"
-      ],
-      "tags": [
-        "cadd",
-        "multiple_choice"
-      ],
-      "origin": "previous-curated"
-    },
-    {
-      "id": "prev_097",
-      "year": null,
-      "source": "Previous",
-      "prompt": "医药产业在国民经济中的重要地位体现在它具有重要的",
-      "type": "multiple_choice",
-      "topic": "cadd",
-      "topicName": "计算机辅助药物发现",
-      "difficulty": 3,
-      "options": [
-        {
-          "key": "A",
-          "text": "社会效益"
-        },
-        {
-          "key": "B",
-          "text": "经济效益"
-        }
-      ],
-      "answer": "",
+      "answer": "ABCDE",
       "analysis": "",
       "images": {
         "question": "",
@@ -4208,6 +4216,41 @@
     },
     {
       "id": "prev_098",
+      "year": null,
+      "source": "Previous",
+      "prompt": "医药产业在国民经济中的重要地位体现在它具有重要的",
+      "type": "multiple_choice",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
+      "difficulty": 3,
+      "options": [
+        {
+          "key": "A",
+          "text": "社会效益"
+        },
+        {
+          "key": "B",
+          "text": "经济效益"
+        }
+      ],
+      "answer": "AB",
+      "analysis": "",
+      "images": {
+        "question": "",
+        "note": ""
+      },
+      "pdfPage": null,
+      "knowledgeRefs": [
+        "cadd-core"
+      ],
+      "tags": [
+        "cadd",
+        "multiple_choice"
+      ],
+      "origin": "previous-curated"
+    },
+    {
+      "id": "prev_099",
       "year": null,
       "source": "Previous",
       "prompt": "新药发现领域，我国的的优势方向是",
@@ -4237,8 +4280,8 @@
           "text": "新药设计"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "AD",
+      "analysis": "我国优势：中药成分配伍研究、天然产物研究、中药新药研究同步发展：药物靶点研究、筛选模型研究、新药设计",
       "images": {
         "question": "",
         "note": ""
@@ -4254,13 +4297,13 @@
       "origin": "previous-curated"
     },
     {
-      "id": "prev_099",
+      "id": "prev_100",
       "year": null,
       "source": "Previous",
       "prompt": "基于系统的药物设计主要有以下途径",
       "type": "multiple_choice",
-      "topic": "biomolecular-network",
-      "topicName": "生物分子网络",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
       "difficulty": 3,
       "options": [
         {
@@ -4280,30 +4323,30 @@
           "text": "网络药理学"
         }
       ],
-      "answer": "",
-      "analysis": "",
+      "answer": "ABD",
+      "analysis": "基于系统的药物设计主要包括三个途径：多向药理学，网络药理学及系统药理学",
       "images": {
         "question": "",
         "note": ""
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "biomolecular-network-core"
+        "cadd-core"
       ],
       "tags": [
-        "biomolecular-network",
+        "cadd",
         "multiple_choice"
       ],
       "origin": "previous-curated"
     },
     {
-      "id": "prev_100",
+      "id": "prev_101",
       "year": null,
       "source": "Previous",
       "prompt": "现代药物研究关联的学科和领域有",
       "type": "multiple_choice",
-      "topic": "proteomics",
-      "topicName": "蛋白组信息学",
+      "topic": "cadd",
+      "topicName": "计算机辅助药物发现",
       "difficulty": 3,
       "options": [
         {
@@ -4327,7 +4370,7 @@
           "text": "化学信息学"
         }
       ],
-      "answer": "",
+      "answer": "ABCDE",
       "analysis": "",
       "images": {
         "question": "",
@@ -4335,11 +4378,11 @@
       },
       "pdfPage": null,
       "knowledgeRefs": [
-        "proteomics-core"
+        "cadd-core"
       ],
       "tags": [
-        "multiple_choice",
-        "proteomics"
+        "cadd",
+        "multiple_choice"
       ],
       "origin": "previous-curated"
     },
